@@ -105,6 +105,7 @@ section{
 .no-padding{
 	padding: 0;
 	height: 5in;
+	
 }
 
 .media>.pull-left{
@@ -155,9 +156,13 @@ body, p{
 	line-height: 1.6em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h6 {
 	font-family: 'JaapokkiRegular';
 	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+h5, h4{
+	font-family: 'JaapokkiRegular';
 	letter-spacing: 0.5px;
 }
 
@@ -179,8 +184,8 @@ h3{
 }
 
 h4{
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 25px;
+    line-height: 32px;
 }
 
 h5{
@@ -1140,6 +1145,7 @@ ul.navbar-nav > li > a i{
     background-image: url(../images/overaly.png);
 }
 
+
 .ts-flex-slider .flexslider .slides{
     z-index: 0;
 }
@@ -1779,7 +1785,7 @@ figure.effect-oscar:hover img {
 }
 
 .ts_counter.elements .facts{
-	padding: 15px;
+	padding: 13px;
 }
 
 /* Team

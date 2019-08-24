@@ -1,0 +1,20 @@
+                        <tbody>
+                            <tr class="clickable" data-toggle="collapse" data-target="#group-of-rows-{{num}}" aria-expanded="false" aria-controls="group-of-rows-1">
+                                <td><i class="fa fa-plus" aria-hidden="true"></i></td>
+                                <td>{{From}}</td>
+                                <td>{{To}}</td>
+                                <td>{{Projects}}</td>
+                                <td>{{Commits}}</td>
+                            </tr>
+                        </tbody>
+                        <tbody id="group-of-rows-{{num}}" class="collapse">
+                            {% for (link,number,ExampleNumb) in commits_links %}
+                            <tr>
+                                <td></td>
+                                <td>{{ExampleNumb}}</td>
+                                <td><a href="{{ link }}">{{number}}</a></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
