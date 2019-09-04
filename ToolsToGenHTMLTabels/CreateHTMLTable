@@ -1,0 +1,53 @@
+import pandas as pd
+from jinja2 import Environment, FileSystemLoader
+
+data = pd.read_csv("/Users/ameya/DetailedWebContent1.txt", sep='|')
+dataGrouped = data.groupby(['FromTo'])
+env = Environment(loader=FileSystemLoader('/Users/ameya/TypeChanges/ToolsToGenHTMLTabels/'))
+template1 = env.get_template('newTemplate.html')
+
+newDF = pd.DataFrame(columns=['name','Project','Commit','Links','Num'])
+
+
+
+j = 0
+for name, group in dataGrouped:
+    temp = []
+    i = 0
+    for index, row in group.iterrows():
+        temp.append((row['b4'],row['Aftr'], "Example-"+str(i)))
+        i+=1
+    newDF = newDF.append(pd.Series([name.replace('<','&lt;').replace('>','&gt;'), len(group.Project.unique()), len(group.Commit.unique()), temp, j], index=newDF.columns), ignore_index=True)
+    j += 1
+
+newDF = newDF.sort_values('Project', ascending=False)
+
+with open("table.html", 'a') as fh:
+    for i,l in newDF.iterrows():
+        fh.write(template1.render(
+                FromTo=l[0],
+                Projects=str(l[1]),
+                Commits=str(l[2]),
+                commits_links=l[3],
+                num=l[4]
+            ))
+#
+#
+#
+#
+# j = 0
+# for name, group in dataGrouped:
+#     temp = []
+#     i = 0
+#     for index, row in group.iterrows():
+#         temp.append((row['b4'],row['Aftr'], "Example-"+str(i)))
+#         i+=1
+#     with open("table.html", 'a') as fh:
+#      fh.write(template1.render(
+#                     FromTo=name.replace('<','&lt;').replace('>','&gt;'),
+#                     Projects=str(len(group.Project.unique())),
+#                     Commits=str(len(group.Commit.unique())),
+#                     commits_links=temp,
+#                     num=j
+#                 ))
+#     j += 1
