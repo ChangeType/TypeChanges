@@ -1,0 +1,495 @@
+<!-- #######  YAY, I AM THE SOURCE EDITOR! #########-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>java.util.concurrent.atomic.AtomicLong to org.apache.hadoop.hbase.regionserver.MultiVersionConcurrencyControl</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="icon" href="img/favicon/favicon-32x32.png" type="image/x-icon"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.png">
+
+    <!-- CSS
+    ================================================== -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <!-- Template styles-->
+    <link rel="stylesheet" href="../../css/style.css">
+    <!-- Responsive styles-->
+    <link rel="stylesheet" href="../../css/responsive.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="../../css/animate.css">
+    <!-- Prettyphoto -->
+    <link rel="stylesheet" href="../../css/prettyPhoto.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="../../css/owl.carousel.css">
+    <link rel="stylesheet" href="../../css/owl.theme.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="../../css/flexslider.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="../../css/cd-hero.css">
+    <!-- Style Swicther -->
+    <link id="style-switch" href="../../css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<div class="body-inner">
+    <header id="header" class="navbar-fixed-top header" role="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 heading">
+                    <!-- Logo start -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div><!--/ Logo end -->
+                    <nav class="collapse navbar-collapse clearfix" role="navigation">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="../../index.html"><p class="text-danger">Home</p></a></li>
+<!--                            <li><a href=..\hbase><p class="text-danger">Examples</p></a></li>-->
+                        </ul>
+                    </nav><!--/ Navigation end -->
+                </div><!--/ Row end -->
+            </div>
+        </div><!--/ Container end -->
+    </header><!--/ Header end -->
+
+
+    <section id="main-container">
+        <div class="container">
+
+            <!-- Company Profile -->
+            <div class="row">
+<!--                <div class="col-md-12 heading">-->
+                    <!--<span class="title-icon classic pull-left"><i class="fa fa-suitcase"></i></span>-->
+                    <h2 class="title classic">java.util.concurrent.atomic.AtomicLong to org.apache.hadoop.hbase.regionserver.MultiVersionConcurrencyControl</h2>
+                    <!--<h2 class="title classic">URL: </h2>-->
+<!--                </div>-->
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h3>No. of Instances - 18</h3>
+                <h3>No. of Commits - 1</h3>
+                <h3>No. of Projects - {'hbase'}</h3>
+                <h3>Hierarchy/Composition: Composition</h3>
+                <h3>Primitive Info: -</h3>
+                <h3>NameSpace: Jdk -> Internal</h3>
+                <h3>Mapping:</h3>
+            </div>
+            <div class="col-md-12 heading">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 heading">
+                        <ol>
+                            
+                            <li><a href="#" onclick="toggle_visibility('ClsInstCr');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                ClsInstCr</i></a></li>
+                            <ul id="ClsInstCr" , style="display: none;">
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-6ba23b6d5a269332681a04eee7dd7eddL364">new WALKey(hri.getEncodedNameAsBytes(),hri.getTable(),now)</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-6ba23b6d5a269332681a04eee7dd7eddR363">new WALKey(hri.getEncodedNameAsBytes(),hri.getTable(),now,mvcc)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-f804e45141522414434fb4cfdb4682d0L204">new WALKey(regioninfo.getEncodedNameAsBytes(),tableName,System.currentTimeMillis())</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-f804e45141522414434fb4cfdb4682d0R202">new WALKey(regioninfo.getEncodedNameAsBytes(),tableName,System.currentTimeMillis(),mvcc)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L255">new WALKey(info.getEncodedNameAsBytes(),tableName,System.currentTimeMillis())</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R257">new WALKey(info.getEncodedNameAsBytes(),tableName,System.currentTimeMillis(),mvcc)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L274">new WALKey(info.getEncodedNameAsBytes(),tableName,System.currentTimeMillis())</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R276">new WALKey(info.getEncodedNameAsBytes(),tableName,System.currentTimeMillis(),mvcc)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L296">new WALKey(info.getEncodedNameAsBytes(),tableName,System.currentTimeMillis())</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R298">new WALKey(info.getEncodedNameAsBytes(),tableName,System.currentTimeMillis(),mvcc)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L505">new WALKey(info.getEncodedNameAsBytes(),htd.getTableName(),System.currentTimeMillis())</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R506">new WALKey(info.getEncodedNameAsBytes(),htd.getTableName(),System.currentTimeMillis(),mvcc)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-f2b00b720a2b266f5af376cfd7903931L117">new WALKey(regioninfo.getEncodedNameAsBytes(),tableName,System.currentTimeMillis())</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-f2b00b720a2b266f5af376cfd7903931R112">new WALKey(regioninfo.getEncodedNameAsBytes(),tableName,System.currentTimeMillis(),mvcc)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L562">new WALKey(hri.getEncodedNameAsBytes(),htd.getTableName(),System.currentTimeMillis())</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R564">new WALKey(hri.getEncodedNameAsBytes(),htd.getTableName(),System.currentTimeMillis(),mvcc)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261L804">new WALKey(hri.getEncodedNameAsBytes(),tableName,now)</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261R795">new WALKey(hri.getEncodedNameAsBytes(),tableName,now,mvcc)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261L812">new WALKey(hri.getEncodedNameAsBytes(),tableName,now)</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261R801">new WALKey(hri.getEncodedNameAsBytes(),tableName,now,mvcc)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-6ba23b6d5a269332681a04eee7dd7eddL410">new WALKey(hri.getEncodedNameAsBytes(),tableName,now)</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-6ba23b6d5a269332681a04eee7dd7eddR410">new WALKey(hri.getEncodedNameAsBytes(),tableName,now,mvcc)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-510d51b3d179b621b8cbed3d8c86c67cL215">new WALKey(hri.getEncodedNameAsBytes(),test,System.currentTimeMillis())</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-510d51b3d179b621b8cbed3d8c86c67cR214">new WALKey(hri.getEncodedNameAsBytes(),test,System.currentTimeMillis(),mvcc)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-510d51b3d179b621b8cbed3d8c86c67cL228">new WALKey(hri.getEncodedNameAsBytes(),test,System.currentTimeMillis())</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-510d51b3d179b621b8cbed3d8c86c67cR230">new WALKey(hri.getEncodedNameAsBytes(),test,System.currentTimeMillis(),mvcc)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-510d51b3d179b621b8cbed3d8c86c67cL244">new WALKey(hri.getEncodedNameAsBytes(),test,System.currentTimeMillis())</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-510d51b3d179b621b8cbed3d8c86c67cR248">new WALKey(hri.getEncodedNameAsBytes(),test,System.currentTimeMillis(),mvcc)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-abd8aee76eb36ddbd7b86a875291b571L137">new WALKey(hri.getEncodedNameAsBytes(),TableName.META_TABLE_NAME,now)</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-abd8aee76eb36ddbd7b86a875291b571R137">new WALKey(hri.getEncodedNameAsBytes(),TableName.META_TABLE_NAME,now,mvcc)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L617">new WALKey(hri.getEncodedNameAsBytes(),tableName,System.currentTimeMillis())</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R620">new WALKey(hri.getEncodedNameAsBytes(),tableName,System.currentTimeMillis(),mvcc)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L627">new WALKey(hri.getEncodedNameAsBytes(),tableName,System.currentTimeMillis())</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R630">new WALKey(hri.getEncodedNameAsBytes(),tableName,System.currentTimeMillis(),mvcc)</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('MthdInvcArgsUpdate');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                MthdInvcArgsUpdate</i></a></li>
+                            <ul id="MthdInvcArgsUpdate" , style="display: none;">
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-6ba23b6d5a269332681a04eee7dd7eddL364">append</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-6ba23b6d5a269332681a04eee7dd7eddR363">append</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-f804e45141522414434fb4cfdb4682d0L204">append</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-f804e45141522414434fb4cfdb4682d0R202">append</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L255">append</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R257">append</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L274">append</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R276">append</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L296">append</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R298">append</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L505">append</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R506">append</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-f2b00b720a2b266f5af376cfd7903931L117">append</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-f2b00b720a2b266f5af376cfd7903931R112">append</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261L1004">append</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261R997">append</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L562">append</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R564">append</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261L804">append</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261R795">append</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261L812">append</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261R801">append</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-6ba23b6d5a269332681a04eee7dd7eddL410">append</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-6ba23b6d5a269332681a04eee7dd7eddR410">append</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-510d51b3d179b621b8cbed3d8c86c67cL215">append</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-510d51b3d179b621b8cbed3d8c86c67cR214">append</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-510d51b3d179b621b8cbed3d8c86c67cL228">append</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-510d51b3d179b621b8cbed3d8c86c67cR230">append</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-510d51b3d179b621b8cbed3d8c86c67cL244">append</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-510d51b3d179b621b8cbed3d8c86c67cR248">append</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-abd8aee76eb36ddbd7b86a875291b571L137">append</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-abd8aee76eb36ddbd7b86a875291b571R137">append</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L617">append</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R620">append</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L627">append</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R630">append</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('VarRename');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                VarRename</i></a></li>
+                            <ul id="VarRename" , style="display: none;">
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-6ba23b6d5a269332681a04eee7dd7eddL364">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-6ba23b6d5a269332681a04eee7dd7eddR363">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-f804e45141522414434fb4cfdb4682d0L204">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-f804e45141522414434fb4cfdb4682d0R202">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L255">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R257">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L274">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R276">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L296">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R298">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L505">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R506">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-f2b00b720a2b266f5af376cfd7903931L117">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-f2b00b720a2b266f5af376cfd7903931R112">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261L1004">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261R997">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L562">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R564">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-6ba23b6d5a269332681a04eee7dd7eddL302">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-6ba23b6d5a269332681a04eee7dd7eddR301">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-930dab8973c818b6645952dd64e55630L162">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-930dab8973c818b6645952dd64e55630R165">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261L298">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261R289">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261L307">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261R298">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261L790">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261R781">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261L804">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261R795">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261L812">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261R801">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-6ba23b6d5a269332681a04eee7dd7eddL407">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-6ba23b6d5a269332681a04eee7dd7eddR407">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-6ba23b6d5a269332681a04eee7dd7eddL410">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-6ba23b6d5a269332681a04eee7dd7eddR410">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-6ba23b6d5a269332681a04eee7dd7eddL541">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-6ba23b6d5a269332681a04eee7dd7eddR540">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-510d51b3d179b621b8cbed3d8c86c67cL215">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-510d51b3d179b621b8cbed3d8c86c67cR214">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-510d51b3d179b621b8cbed3d8c86c67cL228">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-510d51b3d179b621b8cbed3d8c86c67cR230">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-510d51b3d179b621b8cbed3d8c86c67cL244">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-510d51b3d179b621b8cbed3d8c86c67cR248">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-abd8aee76eb36ddbd7b86a875291b571L137">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-abd8aee76eb36ddbd7b86a875291b571R137">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L198">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R198">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L617">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R620">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L627">sequenceId</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R630">mvcc</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('AddRemoveMthdInvc');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                AddRemoveMthdInvc</i></a></li>
+                            <ul id="AddRemoveMthdInvc" , style="display: none;">
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261L1004">ee.currentTime()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261R997">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261L1004">mvcc</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-8525ab7677fc99a046c2e774d99d4261R997">mvcc</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-6ba23b6d5a269332681a04eee7dd7eddL541">wal.append(htd,hri,new WALKey(hri.getEncodedNameAsBytes(),tableName,ee.currentTime()),edit,sequenceId,true,null)</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-6ba23b6d5a269332681a04eee7dd7eddR540">wal.append(htd,hri,new WALKey(hri.getEncodedNameAsBytes(),tableName,ee.currentTime(),mvcc),edit,true)</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('Other');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                Other</i></a></li>
+                            <ul id="Other" , style="display: none;">
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-930dab8973c818b6645952dd64e55630L162">null</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-930dab8973c818b6645952dd64e55630R165">HConstants.NO_NONCE</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L198">null</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R198">mvcc</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('IntroduceLiteral');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                IntroduceLiteral</i></a></li>
+                            <ul id="IntroduceLiteral" , style="display: none;">
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-930dab8973c818b6645952dd64e55630L162">true</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-930dab8973c818b6645952dd64e55630R165">HConstants.NO_NONCE</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('ClsInsCrArgsUpdate');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                ClsInsCrArgsUpdate</i></a></li>
+                            <ul id="ClsInsCrArgsUpdate" , style="display: none;">
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-930dab8973c818b6645952dd64e55630L162">WALKey</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-930dab8973c818b6645952dd64e55630R165">WALKey</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L198">WALKey</a> to <a
+                                        href="https://github.com/apache/hbase/commit/2c83d8a263ee7c6751448bcc72868da86757f7f2?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R198">WALKey</a>
+                                </li>
+                                
+                            </ul>
+                            
+                        </ol>
+
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- initialize jQuery Library -->
+            <script type="text/javascript" src="../../js/jquery.js"></script>
+            <!-- Bootstrap jQuery -->
+            <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+            <!-- Style Switcher -->
+            <script type="text/javascript" src="../../js/style-switcher.js"></script>
+            <!-- Owl Carousel -->
+            <script type="text/javascript" src="../../js/owl.carousel.js"></script>
+            <!-- PrettyPhoto -->
+            <script type="text/javascript" src="../../js/jquery.prettyPhoto.js"></script>
+            <!-- Bxslider -->
+            <script type="text/javascript" src="../../js/jquery.flexslider.js"></script>
+            <!-- CD Hero slider -->
+            <script type="text/javascript" src="../../js/cd-hero.js"></script>
+            <!-- Isotope -->
+            <script type="text/javascript" src="../../js/isotope.js"></script>
+            <script type="text/javascript" src="../../js/ini.isotope.js"></script>
+            <!-- Wow Animation -->
+            <script type="text/javascript" src="../../js/wow.min.js"></script>
+            <!-- SmoothScroll -->
+            <script type="text/javascript" src="../../js/smoothscroll.js"></script>
+            <!-- Eeasing -->
+            <script type="text/javascript" src="../../js/jquery.easing.1.3.js"></script>
+            <!-- Counter -->
+            <script type="text/javascript" src="../../js/jquery.counterup.min.js"></script>
+            <!-- Waypoints -->
+            <script type="text/javascript" src="../../js/waypoints.min.js"></script>
+            <!-- Template custom -->
+            <script type="text/javascript" src="../../js/custom.js"></script>
+        </div>
+    </section>
+</div>
+</body>
+
+<script type="text/javascript">
+    <!--
+    function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        if (e.style.display == 'block')
+            e.style.display = 'none';
+        else
+            e.style.display = 'block';
+    }
+
+    //-->
+</script>
+</html>

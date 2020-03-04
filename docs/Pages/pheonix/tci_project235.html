@@ -1,0 +1,460 @@
+<!-- #######  YAY, I AM THE SOURCE EDITOR! #########-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>org.apache.hadoop.hbase.HRegionInfo to org.apache.hadoop.hbase.client.RegionInfo</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="icon" href="img/favicon/favicon-32x32.png" type="image/x-icon"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.png">
+
+    <!-- CSS
+    ================================================== -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <!-- Template styles-->
+    <link rel="stylesheet" href="../../css/style.css">
+    <!-- Responsive styles-->
+    <link rel="stylesheet" href="../../css/responsive.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="../../css/animate.css">
+    <!-- Prettyphoto -->
+    <link rel="stylesheet" href="../../css/prettyPhoto.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="../../css/owl.carousel.css">
+    <link rel="stylesheet" href="../../css/owl.theme.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="../../css/flexslider.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="../../css/cd-hero.css">
+    <!-- Style Swicther -->
+    <link id="style-switch" href="../../css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<div class="body-inner">
+    <header id="header" class="navbar-fixed-top header" role="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 heading">
+                    <!-- Logo start -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div><!--/ Logo end -->
+                    <nav class="collapse navbar-collapse clearfix" role="navigation">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="../../index.html"><p class="text-danger">Home</p></a></li>
+<!--                            <li><a href=..\pheonix><p class="text-danger">Examples</p></a></li>-->
+                        </ul>
+                    </nav><!--/ Navigation end -->
+                </div><!--/ Row end -->
+            </div>
+        </div><!--/ Container end -->
+    </header><!--/ Header end -->
+
+
+    <section id="main-container">
+        <div class="container">
+
+            <!-- Company Profile -->
+            <div class="row">
+<!--                <div class="col-md-12 heading">-->
+                    <!--<span class="title-icon classic pull-left"><i class="fa fa-suitcase"></i></span>-->
+                    <h2 class="title classic">org.apache.hadoop.hbase.HRegionInfo to org.apache.hadoop.hbase.client.RegionInfo</h2>
+                    <!--<h2 class="title classic">URL: </h2>-->
+<!--                </div>-->
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h3>No. of Instances - 59</h3>
+                <h3>No. of Commits - 7</h3>
+                <h3>No. of Projects - {'pheonix'}</h3>
+                <h3>Hierarchy/Composition: R_SUPER_T</h3>
+                <h3>Primitive Info: -</h3>
+                <h3>NameSpace: External -> External</h3>
+                <h3>Mapping:</h3>
+            </div>
+            <div class="col-md-12 heading">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 heading">
+                        <ol>
+                            
+                            <li><a href="#" onclick="toggle_visibility('AddRemoveMthdInvc');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                AddRemoveMthdInvc</i></a></li>
+                            <ul id="AddRemoveMthdInvc" , style="display: none;">
+                                
+                                <li><a href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-8e37a388ced128e44d501fe558c2064eL255">admin.getTableRegions(TableName.valueOf(table1)).get(0)</a> to <a
+                                        href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-8e37a388ced128e44d501fe558c2064eR255">admin.getRegions(TableName.valueOf(table1)).get(0)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-c137460e69b23ec3183f6c0c9a0c0753L221">MetaTableAccessor.getTableRegions(getUtility().getZooKeeperWatcher(),admin.getConnection(),physicalTableName,false)</a> to <a
+                                        href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-c137460e69b23ec3183f6c0c9a0c0753R221">MetaTableAccessor.getTableRegions(admin.getConnection(),physicalTableName,false)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-c137460e69b23ec3183f6c0c9a0c0753L227">MetaTableAccessor.getTableRegions(getUtility().getZooKeeperWatcher(),admin.getConnection(),physicalTableName,false)</a> to <a
+                                        href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-c137460e69b23ec3183f6c0c9a0c0753R227">MetaTableAccessor.getTableRegions(admin.getConnection(),physicalTableName,false)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-7cbce4b16d04da174cebc0d9b7e7e778L269">admin.getOnlineRegions(dataRs.getServerName())</a> to <a
+                                        href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-7cbce4b16d04da174cebc0d9b7e7e778R269">admin.getRegions(dataRs.getServerName())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-8e37a388ced128e44d501fe558c2064eL224">admin.getTableRegions(TableName.valueOf(table2))</a> to <a
+                                        href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-8e37a388ced128e44d501fe558c2064eR224">admin.getRegions(TableName.valueOf(table2))</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-0cd50d3708f67d4077afed6eec9d602cL139">MetaTableAccessor.getTableRegions(getUtility().getZooKeeperWatcher(),admin.getConnection(),TableName.valueOf(localIndex ? tableName : indexName),false)</a> to <a
+                                        href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-0cd50d3708f67d4077afed6eec9d602cR139">MetaTableAccessor.getTableRegions(admin.getConnection(),TableName.valueOf(localIndex ? tableName : indexName),false)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-0cd50d3708f67d4077afed6eec9d602cL146">MetaTableAccessor.getTableRegions(getUtility().getZooKeeperWatcher(),admin.getConnection(),TableName.valueOf(localIndex ? tableName : indexName),false)</a> to <a
+                                        href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-0cd50d3708f67d4077afed6eec9d602cR145">MetaTableAccessor.getTableRegions(admin.getConnection(),TableName.valueOf(localIndex ? tableName : indexName),false)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-ba62019f476f706fd0b26ae0e6aa73e1L681">HTableDescriptor.getTableDir(root,toRegion.getTableName())</a> to <a
+                                        href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-ba62019f476f706fd0b26ae0e6aa73e1R680">FSUtils.getTableDir(root,toRegion.getTable())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-ba62019f476f706fd0b26ae0e6aa73e1L678">HTableDescriptor.getTableDir(root,fromRegion.getTableName())</a> to <a
+                                        href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-ba62019f476f706fd0b26ae0e6aa73e1R677">FSUtils.getTableDir(root,fromRegion.getTable())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-8e37a388ced128e44d501fe558c2064eL257">admin.getTableRegions(TableName.valueOf(table2)).get(0)</a> to <a
+                                        href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-8e37a388ced128e44d501fe558c2064eR257">admin.getRegions(TableName.valueOf(table2)).get(0)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-8e37a388ced128e44d501fe558c2064eL246">master.getAssignmentManager().getRegionStates().isRegionsInTransition()</a> to <a
+                                        href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-8e37a388ced128e44d501fe558c2064eR246">master.getAssignmentManager().getRegionStates().isRegionInTransition(hri2)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-c137460e69b23ec3183f6c0c9a0c0753L123">MetaTableAccessor.getTableRegions(getUtility().getZooKeeperWatcher(),admin.getConnection(),physicalTableName,false)</a> to <a
+                                        href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-c137460e69b23ec3183f6c0c9a0c0753R123">MetaTableAccessor.getTableRegions(admin.getConnection(),physicalTableName,false)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73L228">hris.next().getRegionInfo()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73R226">hris.next().getRegion()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73L231">hris.next().getRegionInfo()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73R229">hris.next().getRegion()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73L234">hris.next().getRegionInfo()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73R232">hris.next().getRegion()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73L237">hris.next().getRegionInfo()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73R235">hris.next().getRegion()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73L240">hris.next().getRegionInfo()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73R238">hris.next().getRegion()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73L243">hris.next().getRegionInfo()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73R241">hris.next().getRegion()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73L246">hris.next().getRegionInfo()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73R244">hris.next().getRegion()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73L249">hris.next().getRegionInfo()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73R247">hris.next().getRegion()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73L252">hris.next().getRegionInfo()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73R250">hris.next().getRegion()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73L255">hris.next().getRegionInfo()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73R253">hris.next().getRegion()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73L284">hris.next().getRegionInfo()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73R282">hris.next().getRegion()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73L287">hris.next().getRegionInfo()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73R285">hris.next().getRegion()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73L290">hris.next().getRegionInfo()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73R288">hris.next().getRegion()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73L293">hris.next().getRegionInfo()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73R291">hris.next().getRegion()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73L296">hris.next().getRegionInfo()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73R294">hris.next().getRegion()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73L299">hris.next().getRegionInfo()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73R297">hris.next().getRegion()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73L302">hris.next().getRegionInfo()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73R300">hris.next().getRegion()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73L305">hris.next().getRegionInfo()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73R303">hris.next().getRegion()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73L308">hris.next().getRegionInfo()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73R306">hris.next().getRegion()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73L311">hris.next().getRegionInfo()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/54827cf6139277c8f7c5cfd6833cd4c33a08e9b1?diff=split#diff-1eaa73e0727002f6b44835070e1a3f73R309">hris.next().getRegion()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-c61f2668c3da4af5c1b34b61833654ddL195">wals.getWAL(info.getEncodedNameAsBytes(),info.getTable().getNamespace())</a> to <a
+                                        href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-c61f2668c3da4af5c1b34b61833654ddR193">wals.getWAL(info)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-c8f40b19947828abf8b871809edea120L130">info.getTable().getNamespace()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-c8f40b19947828abf8b871809edea120R124">info</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-c8f40b19947828abf8b871809edea120L130">info.getEncodedNameAsBytes()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-c8f40b19947828abf8b871809edea120R124">info</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-c8f40b19947828abf8b871809edea120L189">info.getTable().getNamespace()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-c8f40b19947828abf8b871809edea120R183">info</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-c8f40b19947828abf8b871809edea120L189">info.getEncodedNameAsBytes()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-c8f40b19947828abf8b871809edea120R183">info</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-cbc63cdb31a1f1a78f9b47f58762a111L167">wals.getWAL(primaryHri.getEncodedNameAsBytes(),primaryHri.getTable().getNamespace())</a> to <a
+                                        href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-cbc63cdb31a1f1a78f9b47f58762a111R166">wals.getWAL(primaryHri)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-05e8e2a626166f52e5737f8bcdc49e39L121">wals.getWAL(info.getEncodedNameAsBytes(),info.getTable().getNamespace())</a> to <a
+                                        href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-05e8e2a626166f52e5737f8bcdc49e39R120">wals.getWAL(info)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-27b860d3dd09dbd8773ead2f396aa86dL171">wals.getWAL(info.getEncodedNameAsBytes(),info.getTable().getNamespace())</a> to <a
+                                        href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-27b860d3dd09dbd8773ead2f396aa86dR170">wals.getWAL(info)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-cbc63cdb31a1f1a78f9b47f58762a111L169">wals.getWAL(secondaryHri.getEncodedNameAsBytes(),secondaryHri.getTable().getNamespace())</a> to <a
+                                        href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-cbc63cdb31a1f1a78f9b47f58762a111R167">wals.getWAL(secondaryHri)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/f66343050f5157a5ade09ed219f3158141975f29?diff=split#diff-4a4bbfc79d1c45efbef7600e5d96d56cL360">ADMIN.getTableRegions(tableTwo)</a> to <a
+                                        href="https://github.com/apache/hbase/commit/f66343050f5157a5ade09ed219f3158141975f29?diff=split#diff-4a4bbfc79d1c45efbef7600e5d96d56cR361">ADMIN.getRegions(tableTwo)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/f66343050f5157a5ade09ed219f3158141975f29?diff=split#diff-4a4bbfc79d1c45efbef7600e5d96d56cL366">ADMIN.getTableRegions(tableTwo)</a> to <a
+                                        href="https://github.com/apache/hbase/commit/f66343050f5157a5ade09ed219f3158141975f29?diff=split#diff-4a4bbfc79d1c45efbef7600e5d96d56cR367">ADMIN.getRegions(tableTwo)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/f66343050f5157a5ade09ed219f3158141975f29?diff=split#diff-4a4bbfc79d1c45efbef7600e5d96d56cL387">ADMIN.getTableRegions(tableTwo)</a> to <a
+                                        href="https://github.com/apache/hbase/commit/f66343050f5157a5ade09ed219f3158141975f29?diff=split#diff-4a4bbfc79d1c45efbef7600e5d96d56cR388">ADMIN.getRegions(tableTwo)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/db66e6cc9e1c6ea027631388aba688cb623b7d0a?diff=split#diff-4d4fa4add23096d1396dcc2d01952c35L213">otherLoc.getRegionInfo()</a> to <a
+                                        href="https://github.com/apache/hbase/commit/db66e6cc9e1c6ea027631388aba688cb623b7d0a?diff=split#diff-4d4fa4add23096d1396dcc2d01952c35R213">otherLoc.getRegion()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/3c5761e3656c2cddd59b069d332c4a3e13c87a56?diff=split#diff-fd5cc870466bf4d607b6747149a19452L76">UTIL.getAdmin().getTableRegions(TABLE_NAME).get(0)</a> to <a
+                                        href="https://github.com/apache/hbase/commit/3c5761e3656c2cddd59b069d332c4a3e13c87a56?diff=split#diff-fd5cc870466bf4d607b6747149a19452R75">UTIL.getAdmin().getRegions(TABLE_NAME).get(0)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/3c5761e3656c2cddd59b069d332c4a3e13c87a56?diff=split#diff-8e09629f84f9c7ac18ae78df4bc1e9b5L158">admin.getTableRegions(tableName)</a> to <a
+                                        href="https://github.com/apache/hbase/commit/3c5761e3656c2cddd59b069d332c4a3e13c87a56?diff=split#diff-8e09629f84f9c7ac18ae78df4bc1e9b5R158">admin.getRegions(tableName)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/3c5761e3656c2cddd59b069d332c4a3e13c87a56?diff=split#diff-d3d4208af8d9a64bd941b6aff817b9cfL141">admin.getTableRegions(t.getName())</a> to <a
+                                        href="https://github.com/apache/hbase/commit/3c5761e3656c2cddd59b069d332c4a3e13c87a56?diff=split#diff-d3d4208af8d9a64bd941b6aff817b9cfR136">admin.getRegions(t.getName())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/3c5761e3656c2cddd59b069d332c4a3e13c87a56?diff=split#diff-3158870f91cf22290a9cda7286cca59aL80">UTIL.getAdmin().getTableRegions(TABLE_NAME).get(0)</a> to <a
+                                        href="https://github.com/apache/hbase/commit/3c5761e3656c2cddd59b069d332c4a3e13c87a56?diff=split#diff-3158870f91cf22290a9cda7286cca59aR79">UTIL.getAdmin().getRegions(TABLE_NAME).get(0)</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('MthdRename');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                MthdRename</i></a></li>
+                            <ul id="MthdRename" , style="display: none;">
+                                
+                                <li><a href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-c137460e69b23ec3183f6c0c9a0c0753L219">mergeRegions</a> to <a
+                                        href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-c137460e69b23ec3183f6c0c9a0c0753R219">mergeRegionsAsync</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-e7d8c6dbb60a11628ba9c676f60b9234L678">mergeRegions</a> to <a
+                                        href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-e7d8c6dbb60a11628ba9c676f60b9234R660">mergeRegionsAsync</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('CascadingType');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                CascadingType</i></a></li>
+                            <ul id="CascadingType" , style="display: none;">
+                                
+                                <li><a href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-7cbce4b16d04da174cebc0d9b7e7e778L269">HRegionInfo</a> to <a
+                                        href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-7cbce4b16d04da174cebc0d9b7e7e778R269">RegionInfo</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-66b79a546c9b78b937fc00fb66b8785aL70">HRegionInfo</a> to <a
+                                        href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-66b79a546c9b78b937fc00fb66b8785aR70">RegionInfo</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('CascadingTypeDifferent');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                CascadingTypeDifferent</i></a></li>
+                            <ul id="CascadingTypeDifferent" , style="display: none;">
+                                
+                                <li><a href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-7cbce4b16d04da174cebc0d9b7e7e778L269">List&lt;HRegionInfo&gt;</a> to <a
+                                        href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-7cbce4b16d04da174cebc0d9b7e7e778R269">List&lt;RegionInfo&gt;</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('MthdInvcArgsUpdate');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                MthdInvcArgsUpdate</i></a></li>
+                            <ul id="MthdInvcArgsUpdate" , style="display: none;">
+                                
+                                <li><a href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-b959164bae10d0cdbbf3c87507a176f0L93">sort</a> to <a
+                                        href="https://github.com/apache/phoenix/commit/c3ec80d3166d8b365ae39a69bd57d24d8971c63d?diff=split#diff-b959164bae10d0cdbbf3c87507a176f0R93">sort</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-c8f40b19947828abf8b871809edea120L130">getWAL</a> to <a
+                                        href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-c8f40b19947828abf8b871809edea120R124">getWAL</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-c8f40b19947828abf8b871809edea120L189">getWAL</a> to <a
+                                        href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-c8f40b19947828abf8b871809edea120R183">getWAL</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/549a6d93d4a0716f2965c6119b6417f4a3634b12?diff=split#diff-6536fc6fce6c750b1e44814d1bd45f62L63">debug</a> to <a
+                                        href="https://github.com/apache/hbase/commit/549a6d93d4a0716f2965c6119b6417f4a3634b12?diff=split#diff-6536fc6fce6c750b1e44814d1bd45f62R63">debug</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('VarRename');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                VarRename</i></a></li>
+                            <ul id="VarRename" , style="display: none;">
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-f2b00b720a2b266f5af376cfd7903931L123">regioninfo</a> to <a
+                                        href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-f2b00b720a2b266f5af376cfd7903931R114">regionInfo</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6L394">regioninfo</a> to <a
+                                        href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-da060e5aaac7ad9e763d0b6a253bdcb6R379">regionInfo</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-f804e45141522414434fb4cfdb4682d0L208">regioninfo</a> to <a
+                                        href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-f804e45141522414434fb4cfdb4682d0R203">regionInfo</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-751d107e75325da85c9ad4fd26f4af4bL134">regioninfo</a> to <a
+                                        href="https://github.com/apache/hbase/commit/71a1192d671a93cc17b82e4355f2ace97c41dae5?diff=split#diff-751d107e75325da85c9ad4fd26f4af4bR126">regionInfo</a>
+                                </li>
+                                
+                            </ul>
+                            
+                        </ol>
+
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- initialize jQuery Library -->
+            <script type="text/javascript" src="../../js/jquery.js"></script>
+            <!-- Bootstrap jQuery -->
+            <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+            <!-- Style Switcher -->
+            <script type="text/javascript" src="../../js/style-switcher.js"></script>
+            <!-- Owl Carousel -->
+            <script type="text/javascript" src="../../js/owl.carousel.js"></script>
+            <!-- PrettyPhoto -->
+            <script type="text/javascript" src="../../js/jquery.prettyPhoto.js"></script>
+            <!-- Bxslider -->
+            <script type="text/javascript" src="../../js/jquery.flexslider.js"></script>
+            <!-- CD Hero slider -->
+            <script type="text/javascript" src="../../js/cd-hero.js"></script>
+            <!-- Isotope -->
+            <script type="text/javascript" src="../../js/isotope.js"></script>
+            <script type="text/javascript" src="../../js/ini.isotope.js"></script>
+            <!-- Wow Animation -->
+            <script type="text/javascript" src="../../js/wow.min.js"></script>
+            <!-- SmoothScroll -->
+            <script type="text/javascript" src="../../js/smoothscroll.js"></script>
+            <!-- Eeasing -->
+            <script type="text/javascript" src="../../js/jquery.easing.1.3.js"></script>
+            <!-- Counter -->
+            <script type="text/javascript" src="../../js/jquery.counterup.min.js"></script>
+            <!-- Waypoints -->
+            <script type="text/javascript" src="../../js/waypoints.min.js"></script>
+            <!-- Template custom -->
+            <script type="text/javascript" src="../../js/custom.js"></script>
+        </div>
+    </section>
+</div>
+</body>
+
+<script type="text/javascript">
+    <!--
+    function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        if (e.style.display == 'block')
+            e.style.display = 'none';
+        else
+            e.style.display = 'block';
+    }
+
+    //-->
+</script>
+</html>

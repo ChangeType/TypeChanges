@@ -1,0 +1,932 @@
+<!-- #######  YAY, I AM THE SOURCE EDITOR! #########-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>tachyon.thrift.FileInfo to tachyon.client.file.URIStatus</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="icon" href="img/favicon/favicon-32x32.png" type="image/x-icon"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.png">
+
+    <!-- CSS
+    ================================================== -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <!-- Template styles-->
+    <link rel="stylesheet" href="../../css/style.css">
+    <!-- Responsive styles-->
+    <link rel="stylesheet" href="../../css/responsive.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="../../css/animate.css">
+    <!-- Prettyphoto -->
+    <link rel="stylesheet" href="../../css/prettyPhoto.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="../../css/owl.carousel.css">
+    <link rel="stylesheet" href="../../css/owl.theme.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="../../css/flexslider.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="../../css/cd-hero.css">
+    <!-- Style Swicther -->
+    <link id="style-switch" href="../../css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<div class="body-inner">
+    <header id="header" class="navbar-fixed-top header" role="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 heading">
+                    <!-- Logo start -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div><!--/ Logo end -->
+                    <nav class="collapse navbar-collapse clearfix" role="navigation">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="../../index.html"><p class="text-danger">Home</p></a></li>
+<!--                            <li><a href=..\alluxio><p class="text-danger">Examples</p></a></li>-->
+                        </ul>
+                    </nav><!--/ Navigation end -->
+                </div><!--/ Row end -->
+            </div>
+        </div><!--/ Container end -->
+    </header><!--/ Header end -->
+
+
+    <section id="main-container">
+        <div class="container">
+
+            <!-- Company Profile -->
+            <div class="row">
+<!--                <div class="col-md-12 heading">-->
+                    <!--<span class="title-icon classic pull-left"><i class="fa fa-suitcase"></i></span>-->
+                    <h2 class="title classic">tachyon.thrift.FileInfo to tachyon.client.file.URIStatus</h2>
+                    <!--<h2 class="title classic">URL: </h2>-->
+<!--                </div>-->
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h3>No. of Instances - 94</h3>
+                <h3>No. of Commits - 23</h3>
+                <h3>No. of Projects - {'alluxio'}</h3>
+                <h3>Hierarchy/Composition: Composition</h3>
+                <h3>Primitive Info: -</h3>
+                <h3>NameSpace: Internal -> Internal</h3>
+                <h3>Mapping:</h3>
+            </div>
+            <div class="col-md-12 heading">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 heading">
+                        <ol>
+                            
+                            <li><a href="#" onclick="toggle_visibility('AddRemoveMthdInvc');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                AddRemoveMthdInvc</i></a></li>
+                            <ul id="AddRemoveMthdInvc" , style="display: none;">
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3L478">mTFS.getInfo(file)</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3R464">mTFS.getStatus(dstPath)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3L310">mTFS.getInfo(file)</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3R294">mTFS.getStatus(tPath)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-7f698e4245b49515c635dc3c2e7c1f92L104">mTfs.getInfo(dstFd)</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-7f698e4245b49515c635dc3c2e7c1f92R101">mTfs.getStatus(dstPath)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fL78">fileInfo.creationTimeMs</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fR76">status1.getCreationTimeMs()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fL78">fileInfo2.creationTimeMs</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fR76">status2.getCreationTimeMs()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fL78">fileInfo.creationTimeMs</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fR76">status1.getCreationTimeMs()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fL78">fileInfo2.creationTimeMs</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fR76">status2.getCreationTimeMs()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618L173">mTfs.getInfo(fileA)</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618R171">mTfs.getStatus(uriA)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618L157">mTfs.getInfo(file)</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618R154">mTfs.getStatus(uri)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618L174">mTfs.getInfo(fileB)</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618R172">mTfs.getStatus(uriB)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL117">fsMaster.getFileInfo(xyzId)</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR117">fsMasterInfo.getLength()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL117">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR117">status.getLength()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL420">mTfs.getInfo(mTfs.open(new TachyonURI(directory)))</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR410">mTfs.getStatus(new TachyonURI(directory))</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-24999b963ef667337870ccc65030e475L84">fileInfo1.getFileId()</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-24999b963ef667337870ccc65030e475R80">file1</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-24999b963ef667337870ccc65030e475L89">fileInfo2.getFileId()</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-24999b963ef667337870ccc65030e475R85">file2</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/863d7d03848a033fa97039e2a04ded5d82d5f801?diff=split#diff-d846a44ed9ed4bd367b23f17d10f3b2fL146">mTfs.getInfo(files.get(k))</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/863d7d03848a033fa97039e2a04ded5d82d5f801?diff=split#diff-d846a44ed9ed4bd367b23f17d10f3b2fR151">mTfs.getStatus(files.get(k))</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/5386b0ed251a6683b63bed815181b5bba00685ad?diff=split#diff-be098eaa0c909bb91e3401fa2a6e8810L147">file.getFileId()</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/5386b0ed251a6683b63bed815181b5bba00685ad?diff=split#diff-be098eaa0c909bb91e3401fa2a6e8810R146">file.getPath()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/dcb0722254b195632f8bbf1587d90e2d87838db5?diff=split#diff-3b57c409ba616dda7721bd9c6ea9328aL219">mTfs.getInfo(file1)</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/dcb0722254b195632f8bbf1587d90e2d87838db5?diff=split#diff-3b57c409ba616dda7721bd9c6ea9328aR217">mTfs.getStatus(file1)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/dcb0722254b195632f8bbf1587d90e2d87838db5?diff=split#diff-3b57c409ba616dda7721bd9c6ea9328aL229">mTfs.getInfo(file1)</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/dcb0722254b195632f8bbf1587d90e2d87838db5?diff=split#diff-3b57c409ba616dda7721bd9c6ea9328aR227">mTfs.getStatus(file1)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/dcb0722254b195632f8bbf1587d90e2d87838db5?diff=split#diff-3b57c409ba616dda7721bd9c6ea9328aL230">mTfs.getInfo(file2)</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/dcb0722254b195632f8bbf1587d90e2d87838db5?diff=split#diff-3b57c409ba616dda7721bd9c6ea9328aR228">mTfs.getStatus(file2)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3L64">mTfs.getInfo(file)</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3R62">mTfs.getStatus(uri)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3L50">mTfs.getInfo(fileB)</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3R48">mTfs.getStatus(uriB)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3L49">mTfs.getInfo(fileA)</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3R47">mTfs.getStatus(uriA)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b2cc9f363c5e0475138188ab58eeaa26f5abb389?diff=split#diff-b824cb2a2db36d469df57235e13d59f3L271">statuses.size()</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b2cc9f363c5e0475138188ab58eeaa26f5abb389?diff=split#diff-b824cb2a2db36d469df57235e13d59f3R276">fileInfo</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b2cc9f363c5e0475138188ab58eeaa26f5abb389?diff=split#diff-b824cb2a2db36d469df57235e13d59f3L271">ret.add(new URIStatus(status))</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b2cc9f363c5e0475138188ab58eeaa26f5abb389?diff=split#diff-b824cb2a2db36d469df57235e13d59f3R276">result.add(new URIStatus(new FileInfo(fileInfo)))</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('VarRename');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                VarRename</i></a></li>
+                            <ul id="VarRename" , style="display: none;">
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3L478">info</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3R464">dstStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3L480">info</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3R466">dstStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3L482">info</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3R468">dstStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3L485">info</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3R471">dstStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3L399">files</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3R383">statuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3L402">files</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3R385">statuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3L407">files</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3R390">statuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3L409">files</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3R392">statuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3L408">files</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3R391">statuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3L409">info</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3R392">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3L411">info</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3R394">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/6b34c6b01b180645f8acc6f484c6450f146a14e8?diff=split#diff-83b6de420ff4c318bac3d72c73b86c21L149">info</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/6b34c6b01b180645f8acc6f484c6450f146a14e8?diff=split#diff-83b6de420ff4c318bac3d72c73b86c21R130">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/6b34c6b01b180645f8acc6f484c6450f146a14e8?diff=split#diff-83b6de420ff4c318bac3d72c73b86c21L152">info</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/6b34c6b01b180645f8acc6f484c6450f146a14e8?diff=split#diff-83b6de420ff4c318bac3d72c73b86c21R132">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/6b34c6b01b180645f8acc6f484c6450f146a14e8?diff=split#diff-83b6de420ff4c318bac3d72c73b86c21L148">info</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/6b34c6b01b180645f8acc6f484c6450f146a14e8?diff=split#diff-83b6de420ff4c318bac3d72c73b86c21R129">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-527596fa3bf9b4c350c290abe578f7f8L72">file</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-527596fa3bf9b4c350c290abe578f7f8R70">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-527596fa3bf9b4c350c290abe578f7f8L75">file</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-527596fa3bf9b4c350c290abe578f7f8R73">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-527596fa3bf9b4c350c290abe578f7f8L70">file</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-527596fa3bf9b4c350c290abe578f7f8R68">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-7f698e4245b49515c635dc3c2e7c1f92L104">dstFileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-7f698e4245b49515c635dc3c2e7c1f92R101">dstStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-7f698e4245b49515c635dc3c2e7c1f92L108">dstFileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-7f698e4245b49515c635dc3c2e7c1f92R105">dstStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-08d50ea1a79e1ec45c1d53903377b1d8L150">file</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-08d50ea1a79e1ec45c1d53903377b1d8R149">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-08d50ea1a79e1ec45c1d53903377b1d8L148">file</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-08d50ea1a79e1ec45c1d53903377b1d8R147">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-527596fa3bf9b4c350c290abe578f7f8L63">files</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-527596fa3bf9b4c350c290abe578f7f8R62">statuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-527596fa3bf9b4c350c290abe578f7f8L66">files</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-527596fa3bf9b4c350c290abe578f7f8R64">statuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-527596fa3bf9b4c350c290abe578f7f8L70">files</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-527596fa3bf9b4c350c290abe578f7f8R68">statuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fL78">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fR76">status1</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fL50">files</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fR49">statuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fL59">file</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fR58">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fL64">file</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fR63">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fL50">file</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fR49">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fL74">files</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fR72">statuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fL78">files</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fR76">statuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fL78">fileInfo2</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fR76">status2</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-f28464a2a505e439ce06d5b3cf06d8efL86">file</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-f28464a2a505e439ce06d5b3cf06d8efR81">uriStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-f28464a2a505e439ce06d5b3cf06d8efL85">file</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-f28464a2a505e439ce06d5b3cf06d8efR80">uriStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-493cf7634a8ef0ac10c51d5beb50f9b0L72">files</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-493cf7634a8ef0ac10c51d5beb50f9b0R70">statuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-493cf7634a8ef0ac10c51d5beb50f9b0L74">files</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-493cf7634a8ef0ac10c51d5beb50f9b0R72">statuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-493cf7634a8ef0ac10c51d5beb50f9b0L75">file</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-493cf7634a8ef0ac10c51d5beb50f9b0R73">uriStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-493cf7634a8ef0ac10c51d5beb50f9b0L74">file</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-493cf7634a8ef0ac10c51d5beb50f9b0R72">uriStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-b86f026f718fb5d13bc5b744bd37fddfL136">file</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-b86f026f718fb5d13bc5b744bd37fddfR134">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-b86f026f718fb5d13bc5b744bd37fddfL142">file</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-b86f026f718fb5d13bc5b744bd37fddfR140">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-b86f026f718fb5d13bc5b744bd37fddfL135">file</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-b86f026f718fb5d13bc5b744bd37fddfR133">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-f5e4be490d2fa8818f9575f9ffce39caL69">files</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-f5e4be490d2fa8818f9575f9ffce39caR66">statuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-f5e4be490d2fa8818f9575f9ffce39caL71">files</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-f5e4be490d2fa8818f9575f9ffce39caR67">statuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-f5e4be490d2fa8818f9575f9ffce39caL72">file</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-f5e4be490d2fa8818f9575f9ffce39caR68">uriStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-f5e4be490d2fa8818f9575f9ffce39caL71">file</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-f5e4be490d2fa8818f9575f9ffce39caR67">uriStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-b86f026f718fb5d13bc5b744bd37fddfL128">files</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-b86f026f718fb5d13bc5b744bd37fddfR127">statuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-b86f026f718fb5d13bc5b744bd37fddfL131">files</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-b86f026f718fb5d13bc5b744bd37fddfR129">statuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-b86f026f718fb5d13bc5b744bd37fddfL135">files</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-b86f026f718fb5d13bc5b744bd37fddfR133">statuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-0d536d1b754e429cc9883bfd64f81d1bL167">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-0d536d1b754e429cc9883bfd64f81d1bR167">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/bdcdf36e75f6530f1375230ce3a30ebf61207307?diff=split#diff-141674cf2ce6c0797c2c0bbbf6bdba8bL66">info</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/bdcdf36e75f6530f1375230ce3a30ebf61207307?diff=split#diff-141674cf2ce6c0797c2c0bbbf6bdba8bR63">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618L138">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618R136">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618L169">fileInfoA</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618R167">statusA</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618L173">fileInfoA</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618R171">statusA</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618L175">fileInfoA</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618R173">statusA</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618L154">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618R151">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618L157">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618R154">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618L158">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618R155">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618L238">fileInfo2</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618R235">status2</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618L277">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618R274">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618L170">fileInfoB</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618R168">statusB</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618L174">fileInfoB</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618R172">statusB</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618L176">fileInfoB</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618R174">statusB</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618L237">fileInfo1</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/197efe716357c244700b65234723d91b39f95945?diff=split#diff-8ed8648d330582bdcf8eaa20b0e91618R234">status1</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL348">directoryInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR338">directoryStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL350">directoryInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR340">directoryStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL302">fInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR296">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL304">fInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR298">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL430">dInfos</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR421">directoryStatuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL91">fInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR89">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL383">fInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR373">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL385">fInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR375">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL601">fInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR587">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL603">fInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR589">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL431">dInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR422">directoryStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL430">dInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR421">directoryStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL135">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR134">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL137">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR136">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL117">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR117">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL420">dInfos</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR410">directoryStatuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL423">dInfos</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR413">directoryStatuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL425">dInfos</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR415">directoryStatuses</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL348">file1Info</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR338">file1Status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdL350">file1Info</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b6e49b11494bc88d2f9053c6bab99a029d5b8621?diff=split#diff-ab37bdc32ece24254da801850e9e87fdR340">file1Status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-24999b963ef667337870ccc65030e475L83">fileInfo1</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-24999b963ef667337870ccc65030e475R79">fileStatus1</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-24999b963ef667337870ccc65030e475L84">fileInfo1</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-24999b963ef667337870ccc65030e475R80">fileStatus1</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-5f93336d73b76075542339d7e308ce07L84">fileInfo1</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-5f93336d73b76075542339d7e308ce07R78">fileStatus1</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-24999b963ef667337870ccc65030e475L88">fileInfo2</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-24999b963ef667337870ccc65030e475R84">fileStatus2</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-24999b963ef667337870ccc65030e475L89">fileInfo2</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-24999b963ef667337870ccc65030e475R85">fileStatus2</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-5f93336d73b76075542339d7e308ce07L91">fileInfo2</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-5f93336d73b76075542339d7e308ce07R84">fileStatus2</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/c3071789aaf29ef179fc4fbb742369ab2f3ea4c5?diff=split#diff-dd421db9c90da7812f6d1b1a6dbdc4eaL208">getFileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/c3071789aaf29ef179fc4fbb742369ab2f3ea4c5?diff=split#diff-dd421db9c90da7812f6d1b1a6dbdc4eaR205">getStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/6b62a4bb5e3d5cb43eb5dbcec133c5c211ec37c7?diff=split#diff-5095b04a9c988104789bd1617b5a86d9L300">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/6b62a4bb5e3d5cb43eb5dbcec133c5c211ec37c7?diff=split#diff-5095b04a9c988104789bd1617b5a86d9R299">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/2eaaf130aaac8a300c2972ef4a6772157de923b9?diff=split#diff-fed66c7083eb7d549f0d112185bfabc7L128">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/2eaaf130aaac8a300c2972ef4a6772157de923b9?diff=split#diff-fed66c7083eb7d549f0d112185bfabc7R125">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/2eaaf130aaac8a300c2972ef4a6772157de923b9?diff=split#diff-fed66c7083eb7d549f0d112185bfabc7L129">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/2eaaf130aaac8a300c2972ef4a6772157de923b9?diff=split#diff-fed66c7083eb7d549f0d112185bfabc7R126">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/2eaaf130aaac8a300c2972ef4a6772157de923b9?diff=split#diff-fed66c7083eb7d549f0d112185bfabc7L141">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/2eaaf130aaac8a300c2972ef4a6772157de923b9?diff=split#diff-fed66c7083eb7d549f0d112185bfabc7R137">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/2eaaf130aaac8a300c2972ef4a6772157de923b9?diff=split#diff-fed66c7083eb7d549f0d112185bfabc7L142">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/2eaaf130aaac8a300c2972ef4a6772157de923b9?diff=split#diff-fed66c7083eb7d549f0d112185bfabc7R138">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/2eaaf130aaac8a300c2972ef4a6772157de923b9?diff=split#diff-fed66c7083eb7d549f0d112185bfabc7L153">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/2eaaf130aaac8a300c2972ef4a6772157de923b9?diff=split#diff-fed66c7083eb7d549f0d112185bfabc7R148">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/2eaaf130aaac8a300c2972ef4a6772157de923b9?diff=split#diff-fed66c7083eb7d549f0d112185bfabc7L154">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/2eaaf130aaac8a300c2972ef4a6772157de923b9?diff=split#diff-fed66c7083eb7d549f0d112185bfabc7R149">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/2eaaf130aaac8a300c2972ef4a6772157de923b9?diff=split#diff-fed66c7083eb7d549f0d112185bfabc7L94">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/2eaaf130aaac8a300c2972ef4a6772157de923b9?diff=split#diff-fed66c7083eb7d549f0d112185bfabc7R93">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/2eaaf130aaac8a300c2972ef4a6772157de923b9?diff=split#diff-fed66c7083eb7d549f0d112185bfabc7L95">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/2eaaf130aaac8a300c2972ef4a6772157de923b9?diff=split#diff-fed66c7083eb7d549f0d112185bfabc7R94">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3L61">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3R59">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3L64">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3R62">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3L65">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3R63">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-9e47b465beb92eb36a3f1f6bd502b27fL187">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-9e47b465beb92eb36a3f1f6bd502b27fR184">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3L46">fileInfoB</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3R44">statusB</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3L50">fileInfoB</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3R48">statusB</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3L52">fileInfoB</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3R50">statusB</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3L45">fileInfoA</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3R43">statusA</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3L49">fileInfoA</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3R47">statusA</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3L51">fileInfoA</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/315ad3d1c4501fbab25c48f2d239614afcb4c121?diff=split#diff-a32c41a7256da52d6575eea92da97ca3R49">statusA</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/cc5e2714b36ec6c602e30575980f6b8632b1fea5?diff=split#diff-42fa855f72ff47dd92d3b194d3c9dcb7L114">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/cc5e2714b36ec6c602e30575980f6b8632b1fea5?diff=split#diff-42fa855f72ff47dd92d3b194d3c9dcb7R113">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/cc5e2714b36ec6c602e30575980f6b8632b1fea5?diff=split#diff-42fa855f72ff47dd92d3b194d3c9dcb7L169">fileInfo1</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/cc5e2714b36ec6c602e30575980f6b8632b1fea5?diff=split#diff-42fa855f72ff47dd92d3b194d3c9dcb7R168">status1</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/cc5e2714b36ec6c602e30575980f6b8632b1fea5?diff=split#diff-42fa855f72ff47dd92d3b194d3c9dcb7L96">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/cc5e2714b36ec6c602e30575980f6b8632b1fea5?diff=split#diff-42fa855f72ff47dd92d3b194d3c9dcb7R94">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/cc5e2714b36ec6c602e30575980f6b8632b1fea5?diff=split#diff-42fa855f72ff47dd92d3b194d3c9dcb7L170">fileInfo2</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/cc5e2714b36ec6c602e30575980f6b8632b1fea5?diff=split#diff-42fa855f72ff47dd92d3b194d3c9dcb7R169">status2</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-853d25d1549314430dc4026df4ded97cL96">info</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-853d25d1549314430dc4026df4ded97cR96">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-853d25d1549314430dc4026df4ded97cL97">info</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-853d25d1549314430dc4026df4ded97cR97">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-853d25d1549314430dc4026df4ded97cL98">info</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-853d25d1549314430dc4026df4ded97cR98">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98L113">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98R114">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98L114">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98R115">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98L115">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98R116">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98L116">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98R117">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98L117">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98R118">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98L118">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98R119">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98L119">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98R120">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98L120">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98R121">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98L121">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98R122">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98L122">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98R123">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98L123">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98R124">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98L124">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98R125">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98L125">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98R126">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98L128">fileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/864005fa4070cb544fe3a31e8772eee777f2b4db?diff=split#diff-320a24dd9b5d113a2804320e40cd8b98R129">status</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b2cc9f363c5e0475138188ab58eeaa26f5abb389?diff=split#diff-b824cb2a2db36d469df57235e13d59f3L271">statuses</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b2cc9f363c5e0475138188ab58eeaa26f5abb389?diff=split#diff-b824cb2a2db36d469df57235e13d59f3R276">result</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('CascadingType');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                CascadingType</i></a></li>
+                            <ul id="CascadingType" , style="display: none;">
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3L399">List&lt;FileInfo&gt;</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3R383">List&lt;URIStatus&gt;</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3L409">FileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3R392">URIStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3L409">FileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b791ad5c0ef462aa79c73ae120d84eec2a8f060a?diff=split#diff-bc7d377792b768d9fbba580277d815a3R392">URIStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-527596fa3bf9b4c350c290abe578f7f8L63">List&lt;FileInfo&gt;</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04e5fac9fd99e757f620b34a6c4977f07997caa6?diff=split#diff-527596fa3bf9b4c350c290abe578f7f8R62">List&lt;URIStatus&gt;</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fL78">FileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fR76">URIStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fL78">FileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fR76">URIStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-493cf7634a8ef0ac10c51d5beb50f9b0L72">List&lt;FileInfo&gt;</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-493cf7634a8ef0ac10c51d5beb50f9b0R70">List&lt;URIStatus&gt;</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-f5e4be490d2fa8818f9575f9ffce39caL69">List&lt;FileInfo&gt;</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/04c6326ea4fcae979e43420a21486e189585d51c?diff=split#diff-f5e4be490d2fa8818f9575f9ffce39caR66">List&lt;URIStatus&gt;</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-24999b963ef667337870ccc65030e475L83">FileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-24999b963ef667337870ccc65030e475R79">URIStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-24999b963ef667337870ccc65030e475L88">FileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-24999b963ef667337870ccc65030e475R84">URIStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/c3071789aaf29ef179fc4fbb742369ab2f3ea4c5?diff=split#diff-dd421db9c90da7812f6d1b1a6dbdc4eaL208">FileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/c3071789aaf29ef179fc4fbb742369ab2f3ea4c5?diff=split#diff-dd421db9c90da7812f6d1b1a6dbdc4eaR205">URIStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/2eaaf130aaac8a300c2972ef4a6772157de923b9?diff=split#diff-fed66c7083eb7d549f0d112185bfabc7L128">FileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/2eaaf130aaac8a300c2972ef4a6772157de923b9?diff=split#diff-fed66c7083eb7d549f0d112185bfabc7R125">URIStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/2eaaf130aaac8a300c2972ef4a6772157de923b9?diff=split#diff-fed66c7083eb7d549f0d112185bfabc7L94">FileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/2eaaf130aaac8a300c2972ef4a6772157de923b9?diff=split#diff-fed66c7083eb7d549f0d112185bfabc7R93">URIStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b2cc9f363c5e0475138188ab58eeaa26f5abb389?diff=split#diff-b824cb2a2db36d469df57235e13d59f3L271">List&lt;FileInfo&gt;</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b2cc9f363c5e0475138188ab58eeaa26f5abb389?diff=split#diff-b824cb2a2db36d469df57235e13d59f3R276">List&lt;URIStatus&gt;</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('CascadingTypeDifferent');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                CascadingTypeDifferent</i></a></li>
+                            <ul id="CascadingTypeDifferent" , style="display: none;">
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fL78">Comparator&lt;FileInfo&gt;</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fR76">Comparator&lt;URIStatus&gt;</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fL78">Comparator&lt;FileInfo&gt;</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/669a918d3b0910b4cc3dee5bd1c451a1a59aa801?diff=split#diff-2821d4413254ff7269886f419c72f16fR76">Comparator&lt;URIStatus&gt;</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/5386b0ed251a6683b63bed815181b5bba00685ad?diff=split#diff-be098eaa0c909bb91e3401fa2a6e8810L147">TachyonFile</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/5386b0ed251a6683b63bed815181b5bba00685ad?diff=split#diff-be098eaa0c909bb91e3401fa2a6e8810R146">TachyonURI</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/c3071789aaf29ef179fc4fbb742369ab2f3ea4c5?diff=split#diff-dd421db9c90da7812f6d1b1a6dbdc4eaL208">RpcCallableThrowsTachyonTException&lt;FileInfo&gt;</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/c3071789aaf29ef179fc4fbb742369ab2f3ea4c5?diff=split#diff-dd421db9c90da7812f6d1b1a6dbdc4eaR205">RpcCallableThrowsTachyonTException&lt;URIStatus&gt;</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b2cc9f363c5e0475138188ab58eeaa26f5abb389?diff=split#diff-b824cb2a2db36d469df57235e13d59f3L271">ArrayList&lt;URIStatus&gt;</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b2cc9f363c5e0475138188ab58eeaa26f5abb389?diff=split#diff-b824cb2a2db36d469df57235e13d59f3R276">FileInfo</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b2cc9f363c5e0475138188ab58eeaa26f5abb389?diff=split#diff-b824cb2a2db36d469df57235e13d59f3L271">FileInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b2cc9f363c5e0475138188ab58eeaa26f5abb389?diff=split#diff-b824cb2a2db36d469df57235e13d59f3R276">tachyon.thrift.FileInfo</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('MthdRename');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                MthdRename</i></a></li>
+                            <ul id="MthdRename" , style="display: none;">
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-24999b963ef667337870ccc65030e475L83">getInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-24999b963ef667337870ccc65030e475R79">getStatus</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-24999b963ef667337870ccc65030e475L88">getInfo</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/de7cc40c7983e4382f16e6a6d3481298185901a9?diff=split#diff-24999b963ef667337870ccc65030e475R84">getStatus</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('Wrap');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                Wrap</i></a></li>
+                            <ul id="Wrap" , style="display: none;">
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/c3071789aaf29ef179fc4fbb742369ab2f3ea4c5?diff=split#diff-dd421db9c90da7812f6d1b1a6dbdc4eaL208">retryRPC</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/c3071789aaf29ef179fc4fbb742369ab2f3ea4c5?diff=split#diff-dd421db9c90da7812f6d1b1a6dbdc4eaR205">retryRPC</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/Alluxio/alluxio/commit/b2cc9f363c5e0475138188ab58eeaa26f5abb389?diff=split#diff-b824cb2a2db36d469df57235e13d59f3L271">retryRPC</a> to <a
+                                        href="https://github.com/Alluxio/alluxio/commit/b2cc9f363c5e0475138188ab58eeaa26f5abb389?diff=split#diff-b824cb2a2db36d469df57235e13d59f3R276">retryRPC</a>
+                                </li>
+                                
+                            </ul>
+                            
+                        </ol>
+
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- initialize jQuery Library -->
+            <script type="text/javascript" src="../../js/jquery.js"></script>
+            <!-- Bootstrap jQuery -->
+            <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+            <!-- Style Switcher -->
+            <script type="text/javascript" src="../../js/style-switcher.js"></script>
+            <!-- Owl Carousel -->
+            <script type="text/javascript" src="../../js/owl.carousel.js"></script>
+            <!-- PrettyPhoto -->
+            <script type="text/javascript" src="../../js/jquery.prettyPhoto.js"></script>
+            <!-- Bxslider -->
+            <script type="text/javascript" src="../../js/jquery.flexslider.js"></script>
+            <!-- CD Hero slider -->
+            <script type="text/javascript" src="../../js/cd-hero.js"></script>
+            <!-- Isotope -->
+            <script type="text/javascript" src="../../js/isotope.js"></script>
+            <script type="text/javascript" src="../../js/ini.isotope.js"></script>
+            <!-- Wow Animation -->
+            <script type="text/javascript" src="../../js/wow.min.js"></script>
+            <!-- SmoothScroll -->
+            <script type="text/javascript" src="../../js/smoothscroll.js"></script>
+            <!-- Eeasing -->
+            <script type="text/javascript" src="../../js/jquery.easing.1.3.js"></script>
+            <!-- Counter -->
+            <script type="text/javascript" src="../../js/jquery.counterup.min.js"></script>
+            <!-- Waypoints -->
+            <script type="text/javascript" src="../../js/waypoints.min.js"></script>
+            <!-- Template custom -->
+            <script type="text/javascript" src="../../js/custom.js"></script>
+        </div>
+    </section>
+</div>
+</body>
+
+<script type="text/javascript">
+    <!--
+    function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        if (e.style.display == 'block')
+            e.style.display = 'none';
+        else
+            e.style.display = 'block';
+    }
+
+    //-->
+</script>
+</html>

@@ -1,0 +1,2009 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>TypeChanges-Projects</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="icon" href="img/favicon/favicon-32x32.png" type="image/x-icon" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.png">
+
+    <!-- CSS
+    ================================================== -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Template styles-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Responsive styles-->
+    <link rel="stylesheet" href="../css/responsive.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="../css/animate.css">
+    <!-- Prettyphoto -->
+    <link rel="stylesheet" href="../css/prettyPhoto.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="../css/owl.carousel.css">
+    <link rel="stylesheet" href="../css/owl.theme.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="../css/flexslider.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="../css/cd-hero.css">
+    <!-- Style Swicther -->
+    <link id="style-switch" href="../css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<div class="body-inner">
+    <!-- Header start -->
+    <header id="header">
+        <div class="container">
+            <div>
+                <!-- Logo start -->
+                <nav class="collapse navbar-collapse clearfix" role="navigation">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="../../index.html"><p>Home</p></a></li>
+<!--                        <li><a href=jersey><p>Projects</p></a></li>-->
+                        <!--<li><a href="examples1.html"><p class="text-danger">Examples</p></a></li>-->
+                    </ul>
+                </nav><!--/ Navigation end -->
+            </div><!--/ Row end -->
+        </div><!--/ Container end -->
+    </header><!--/ Header end -->
+
+
+    <section id="main-container">
+        <div>
+
+            <!-- Company Profile -->
+            <div>
+                <div>
+                    <span><i></i></span>
+                    <h2>Type Changes: </h2>
+                </div>
+            </div><!-- Title row end -->
+            <table class="fixed" , id=AllTypeChanges>
+                <thead>
+                <tr>
+                    <th scope="col">Type Before</th>
+                    <th scope="col">Type After</th>
+                    <th scope="col">No. of Instances</th>
+                    <th scope="col">No. of Commits</th>
+                    <th scope="col">No. of Projects</th>
+                    <th scope="col">Hierarchy Relation</th>
+                    <th scope="col">Primitive Info</th>
+                    <th scope="col">Namespace</th>
+                </tr>
+                </thead>
+                
+                <tr>
+                    <td>java.lang.Class</td>
+                    <td>java.util.Map.Entry</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project0.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.List</td>
+                    <td>java.util.Set</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project1.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>SIBLING</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.String</td>
+                    <td>java.util.List&lt;java.lang.String&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project2.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.ws.rs.core.Request</td>
+                    <td>org.glassfish.jersey.server.ContainerRequest</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project3.html">6</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.client.spi.Connector</td>
+                    <td>org.glassfish.jersey.apache.connector.ApacheConnector</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project4.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.hk2.api.ServiceLocator</td>
+                    <td>org.glassfish.jersey.internal.util.collection.Value&lt;org.glassfish.jersey.server.internal.routing.RuntimeLocatorModelBuilder&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project5.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.StringBuffer</td>
+                    <td>java.lang.StringBuilder</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project6.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>SIBLING</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.server.internal.routing.RuntimeModelBuilder</td>
+                    <td>org.glassfish.jersey.server.internal.routing.RuntimeLocatorModelBuilder</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project7.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>Composition</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>freemarker.template.Configuration</td>
+                    <td>org.glassfish.jersey.server.mvc.freemarker.FreemarkerConfigurationFactory</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project8.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.server.internal.routing.Route&lt;org.glassfish.jersey.uri.PathPattern&gt;</td>
+                    <td>org.glassfish.jersey.server.internal.routing.Route</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project9.html">4</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.hk2.api.Factory&lt;org.glassfish.jersey.server.internal.routing.Router&gt;</td>
+                    <td>org.glassfish.jersey.server.internal.routing.Router</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project10.html">3</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.server.internal.routing.CombinedClientServerMediaType.EffectiveMediaType</td>
+                    <td>org.glassfish.jersey.server.internal.routing.CombinedMediaType.EffectiveMediaType</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project11.html">8</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.process.Inflector&lt;org.glassfish.jersey.server.internal.process.RequestProcessingContext, org.glassfish.jersey.server.ContainerResponse&gt;</td>
+                    <td>org.glassfish.jersey.server.internal.process.Endpoint</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project12.html">3</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.server.internal.routing.Routers.RouteToPathBuilder&lt;org.glassfish.jersey.uri.PathPattern&gt;</td>
+                    <td>org.glassfish.jersey.server.internal.routing.PathMatchingRouterBuilder</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project13.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.server.internal.routing.MethodAcceptorPair</td>
+                    <td>org.glassfish.jersey.server.internal.routing.MethodRouting</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project14.html">10</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.server.internal.routing.TransformableData&lt;org.glassfish.jersey.server.ContainerResponse, org.glassfish.jersey.server.internal.process.RequestProcessingContext&gt;</td>
+                    <td>org.glassfish.jersey.server.internal.routing.RoutingStage.RoutingResult</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project15.html">3</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.server.internal.routing.LocatorAcceptorPair</td>
+                    <td>org.glassfish.jersey.server.internal.routing.LocatorRouting</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project16.html">6</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.String</td>
+                    <td>java.lang.CharSequence</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project17.html">22</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.ws.rs.ext.MessageBodyReader</td>
+                    <td>org.glassfish.jersey.message.ReaderModel</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project18.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>void</td>
+                    <td>java.util.List&lt;org.glassfish.jersey.message.ReaderModel&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project19.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>void</td>
+                    <td>java.util.List&lt;org.glassfish.jersey.message.WriterModel&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project20.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.message.internal.MessageBodyFactory.WorkerModel&lt;javax.ws.rs.ext.MessageBodyWriter&gt;</td>
+                    <td>org.glassfish.jersey.message.WriterModel</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project21.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.message.internal.MessageBodyFactory.WorkerModel</td>
+                    <td>org.glassfish.jersey.message.AbstractEntityProviderModel</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project22.html">13</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.ws.rs.ext.MessageBodyWriter</td>
+                    <td>org.glassfish.jersey.message.WriterModel</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project23.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.ws.rs.core.MediaType</td>
+                    <td>org.glassfish.jersey.message.internal.AcceptableMediaType</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project24.html">5</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.ws.rs.ext.MessageBodyReader&lt;?&gt;</td>
+                    <td>org.glassfish.jersey.message.ReaderModel</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project25.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.ws.rs.ext.MessageBodyWriter&lt;?&gt;</td>
+                    <td>org.glassfish.jersey.message.WriterModel</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project26.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.inject.Provider&lt;javax.ws.rs.core.UriInfo&gt;</td>
+                    <td>javax.ws.rs.core.UriInfo</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project27.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>SIBLING</td>
+                    <td>-</td>
+                    <td>External -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>org.apache.http.client.methods.CloseableHttpResponse</td>
+                    <td>java.io.InputStream</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project28.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>SIBLING</td>
+                    <td>-</td>
+                    <td>External -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.enterprise.inject.spi.AnnotatedConstructor&lt;?&gt;</td>
+                    <td>javax.enterprise.inject.spi.AnnotatedCallable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project29.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>External -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>char</td>
+                    <td>int</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project30.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>Widening</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.Object</td>
+                    <td>org.glassfish.jersey.media.multipart.FormDataMultiPart</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project31.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.Collection</td>
+                    <td>java.lang.Iterable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project32.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>com.sun.net.httpserver.HttpsConfigurator</td>
+                    <td>javax.net.ssl.SSLContext</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project33.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.client.JerseyClient.ShutdownHook</td>
+                    <td>java.lang.ref.WeakReference&lt;org.glassfish.jersey.client.JerseyClient.ShutdownHook&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project34.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.client.JerseyClient.ShutdownHook</td>
+                    <td>java.lang.ref.Reference&lt;org.glassfish.jersey.client.JerseyClient.ShutdownHook&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project35.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>void</td>
+                    <td>org.eclipse.jetty.server.Server</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project36.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.ws.rs.core.Request</td>
+                    <td>javax.ws.rs.container.ContainerRequestContext</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project37.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>SIBLING</td>
+                    <td>-</td>
+                    <td>External -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>int</td>
+                    <td>org.glassfish.jersey.internal.util.collection.Value&lt;java.lang.Integer&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project38.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.ScheduledExecutorService</td>
+                    <td>java.util.concurrent.ExecutorService</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project39.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>void</td>
+                    <td>org.glassfish.jersey.server.ServerRuntime</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project40.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.process.internal.RequestExecutorFactory</td>
+                    <td>javax.inject.Provider&lt;java.util.concurrent.ExecutorService&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project41.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.List</td>
+                    <td>java.lang.Iterable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project42.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.ws.rs.core.Application</td>
+                    <td>org.glassfish.jersey.test.DeploymentContext</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project43.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.reflect.Method</td>
+                    <td>java.util.Collection&lt;? extendsjava.lang.reflect.Method&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project44.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.reflect.Type</td>
+                    <td>java.lang.Object</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project45.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.Object</td>
+                    <td>javax.ws.rs.core.Configuration</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project46.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>Jdk -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>boolean</td>
+                    <td>java.util.concurrent.atomic.AtomicBoolean</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project47.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.atomic.AtomicBoolean</td>
+                    <td>boolean</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project48.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.tests.e2e.client.ResponseBufferEntityTest.CorruptedInputStream</td>
+                    <td>org.glassfish.jersey.tests.e2e.client.ResponseReadAndBufferEntityTest.CorruptableInputStream</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project49.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.server.internal.monitoring.ExecutionStatisticsImpl.Builder</td>
+                    <td>java.util.concurrent.atomic.AtomicReference&lt;org.glassfish.jersey.server.internal.monitoring.ExecutionStatisticsImpl.Builder&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project50.html">4</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.Date</td>
+                    <td>long</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project51.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>long</td>
+                    <td>java.util.concurrent.atomic.AtomicLong</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project52.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.Set</td>
+                    <td>java.util.concurrent.ConcurrentMap</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project53.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.Map</td>
+                    <td>java.util.concurrent.ConcurrentMap</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project54.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.message.internal.ReaderInterceptorExecutor.UnCloseableInputStream</td>
+                    <td>java.io.InputStream</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project55.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.hk2.api.Factory&lt;?&gt;</td>
+                    <td>? extendsorg.glassfish.hk2.api.Factory&lt;?&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project56.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>External -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.hk2.api.Factory</td>
+                    <td>org.glassfish.jersey.server.spi.internal.ParamValueFactoryWithSource</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project57.html">11</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>long</td>
+                    <td>java.lang.Long</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project58.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>Boxing</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>long</td>
+                    <td>double</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project59.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>Widening</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>int</td>
+                    <td>long</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project60.html">5</a></td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>Widening</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.Map</td>
+                    <td>java.util.SortedMap</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project61.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.Long</td>
+                    <td>java.util.Collection&lt;java.lang.Long&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project62.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.Map.Entry&lt;java.lang.Long, java.lang.Long&gt;</td>
+                    <td>java.lang.Long</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project63.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>? extendsjava.lang.Object</td>
+                    <td>?</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project64.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>Jdk -> TypeVariable</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.String</td>
+                    <td>java.util.Collection&lt;java.lang.String&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project65.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.ws.rs.client.Client</td>
+                    <td>org.glassfish.jersey.client.JerseyClient</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project66.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.internal.util.collection.Value&lt;java.lang.Integer&gt;</td>
+                    <td>org.glassfish.jersey.servlet.internal.ResponseWriter</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project67.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>int</td>
+                    <td>javax.ws.rs.core.Response.StatusType</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project68.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.Iterable</td>
+                    <td>java.util.List</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project69.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.net.URI</td>
+                    <td>int</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project70.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>jersey.repackaged.com.google.common.util.concurrent.SettableFuture</td>
+                    <td>java.util.concurrent.CompletableFuture</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project71.html">6</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.io.Closeable</td>
+                    <td>org.glassfish.jersey.simple.SimpleServer</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project72.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.simpleframework.transport.Server</td>
+                    <td>org.simpleframework.transport.SocketProcessor</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project73.html">4</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>SIBLING</td>
+                    <td>-</td>
+                    <td>External -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.examples.rx.domain.AgentResponse</td>
+                    <td>javax.ws.rs.core.Response</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project74.html">6</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.ws.rs.client.Invocation.Builder</td>
+                    <td>javax.ws.rs.client.SyncInvoker</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project75.html">15</a></td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>External -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.CompletionStage</td>
+                    <td>io.reactivex.Flowable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project76.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.client.rx.java8.RxCompletionStageInvoker</td>
+                    <td>org.glassfish.jersey.client.rx.rxjava2.RxFlowableInvoker</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project77.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.Future</td>
+                    <td>io.reactivex.Flowable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project78.html">17</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.server.internal.inject.AbstractContainerRequestValueFactory</td>
+                    <td>org.glassfish.jersey.server.internal.inject.AbstractContainerRequestValueSupplier</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project79.html">16</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.hk2.api.Factory</td>
+                    <td>java.util.function.Supplier</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project80.html">40</a></td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.hk2.api.Factory</td>
+                    <td>org.glassfish.jersey.server.internal.inject.AbstractContainerRequestValueSupplier</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project81.html">4</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.hk2.api.Factory</td>
+                    <td>org.glassfish.jersey.internal.inject.SupplierFactory</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project82.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.hk2.api.Factory</td>
+                    <td>javax.inject.Provider</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project83.html">60</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>SIBLING</td>
+                    <td>-</td>
+                    <td>External -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.server.internal.inject.AbstractContainerRequestValueSupplier</td>
+                    <td>org.glassfish.jersey.server.internal.inject.AbstractRequestDerivedValueSupplier</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project84.html">22</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>SIBLING</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.hk2.api.ServiceLocator</td>
+                    <td>org.glassfish.jersey.spi.inject.InstanceManager</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project85.html">6</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.ws.rs.core.Configuration</td>
+                    <td>org.glassfish.jersey.internal.util.collection.LazyValue&lt;javax.ws.rs.core.Configuration&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project86.html">4</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.hk2.api.ActiveDescriptor</td>
+                    <td>org.glassfish.jersey.spi.inject.ForeignDescriptor</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project87.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.hk2.api.ActiveDescriptor&lt;?&gt;</td>
+                    <td>org.glassfish.jersey.spi.inject.ForeignDescriptor</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project88.html">4</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.Set</td>
+                    <td>org.glassfish.jersey.internal.util.collection.LazyValue</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project89.html">4</a></td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.server.internal.inject.ParamConverterFactory</td>
+                    <td>org.glassfish.jersey.internal.util.collection.LazyValue&lt;org.glassfish.jersey.server.internal.inject.ParamConverterFactory&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project90.html">4</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.spi.inject.InstanceManager</td>
+                    <td>javax.inject.Provider&lt;org.glassfish.jersey.server.ContainerRequest&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project91.html">24</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.internal.inject.InjectionManager</td>
+                    <td>javax.servlet.ServletConfig</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project92.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.internal.inject.InjectionManager</td>
+                    <td>java.util.function.Function&lt;java.lang.Class&lt;?&gt;, ?&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project93.html">4</a></td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.servlet.ServletContext</td>
+                    <td>org.glassfish.jersey.internal.inject.InjectionManager</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project94.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.internal.inject.SupplierFactory</td>
+                    <td>java.util.function.Supplier</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project95.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.internal.inject.FactoryClassBinding</td>
+                    <td>org.glassfish.jersey.internal.inject.SupplierClassBinding</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project96.html">12</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>SIBLING</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.internal.inject.FactoryInstanceBinding</td>
+                    <td>org.glassfish.jersey.internal.inject.SupplierInstanceBinding</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project97.html">6</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>SIBLING</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.hk2.api.ActiveDescriptor&lt;T&gt;</td>
+                    <td>org.glassfish.jersey.internal.inject.ForeignDescriptor</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project98.html">8</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.hk2.api.ActiveDescriptor&lt;?&gt;</td>
+                    <td>org.glassfish.jersey.internal.inject.ForeignDescriptor</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project99.html">3</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.hk2.api.ServiceLocator</td>
+                    <td>org.glassfish.jersey.internal.inject.InjectionManager</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project100.html">8</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.internal.inject.Binder</td>
+                    <td>org.glassfish.hk2.utilities.binding.AbstractBinder</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project101.html">4</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.hk2.api.ServiceLocator</td>
+                    <td>java.lang.Object</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project102.html">26</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>External -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.internal.inject.InjectionManager</td>
+                    <td>java.lang.Object</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project103.html">12</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>void</td>
+                    <td>javax.ws.rs.core.Application</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project104.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.ExecutorService</td>
+                    <td>java.util.concurrent.Executor</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project105.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>void</td>
+                    <td>java.lang.Runnable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project106.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.media.sse.internal.JerseySse</td>
+                    <td>ClientBackgroundScheduler</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project107.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.ScheduledExecutorService</td>
+                    <td>org.glassfish.jersey.client.ClientExecutor</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project108.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.ws.rs.client.WebTarget</td>
+                    <td>org.glassfish.jersey.client.JerseyWebTarget</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project109.html">4</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.Object</td>
+                    <td>java.lang.Class</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project110.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.Class</td>
+                    <td>java.lang.Object</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project111.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.tests.api.MessageBodyReaderTest.EntityForReader</td>
+                    <td>org.glassfish.jersey.tests.e2e.server.ExceptionLoggingTest.ExceptionLoggingTestPOJO</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project112.html">6</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.internal.inject.InjectionManager</td>
+                    <td>java.util.Collection&lt;org.glassfish.jersey.server.spi.internal.ValueSupplierProvider&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project113.html">10</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.internal.inject.ContextInjectionResolver</td>
+                    <td>org.glassfish.jersey.internal.util.collection.LazyValue&lt;org.glassfish.jersey.internal.inject.ContextInjectionResolver&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project114.html">4</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.inject.Provider&lt;org.glassfish.jersey.message.MessageBodyWorkers&gt;</td>
+                    <td>org.glassfish.jersey.message.MessageBodyWorkers</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project115.html">4</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.Iterable</td>
+                    <td>java.util.Collection</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project116.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.hk2.HK2InjectionManager</td>
+                    <td>org.glassfish.jersey.hk2.ImmediateHk2InjectionManager</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project117.html">6</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.internal.inject.InjectionManager</td>
+                    <td>org.glassfish.hk2.api.ServiceLocator</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project118.html">8</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.server.internal.inject.MultivaluedParameterExtractorProvider</td>
+                    <td>javax.inject.Provider&lt;org.glassfish.jersey.server.internal.inject.MultivaluedParameterExtractorProvider&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project119.html">26</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.Set</td>
+                    <td>org.glassfish.jersey.internal.util.collection.Value</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project120.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.server.internal.ProcessingProviders</td>
+                    <td>org.glassfish.jersey.server.internal.process.RequestProcessingContext</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project121.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.internal.inject.Binder[]</td>
+                    <td>org.glassfish.jersey.internal.inject.Binder</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project122.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.internal.inject.InjectionManager</td>
+                    <td>java.util.Collection&lt;org.glassfish.jersey.server.spi.internal.ResourceMethodDispatcher.Provider&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project123.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.internal.inject.InjectionManager</td>
+                    <td>org.glassfish.jersey.server.TestInjectionManagerFactory.BootstrapResult</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project124.html">26</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>Composition</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.server.ResourceBag.Builder</td>
+                    <td>org.glassfish.jersey.server.ResourceBagConfigurator</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project125.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.internal.inject.InjectionManager</td>
+                    <td>org.glassfish.jersey.message.MessageBodyWorkers</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project126.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.Set</td>
+                    <td>java.util.Collection</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project127.html">2</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.grizzly.http.server.HttpServer</td>
+                    <td>void</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project128.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.media.sse.InboundEvent</td>
+                    <td>javax.ws.rs.sse.InboundSseEvent</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project129.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Internal -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.ws.rs.container.ResourceContext</td>
+                    <td>javax.inject.Provider&lt;javax.ws.rs.container.ResourceContext&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project130.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>SIBLING</td>
+                    <td>-</td>
+                    <td>External -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.internal.inject.InjectionManager</td>
+                    <td>java.util.Collection&lt;org.glassfish.jersey.server.model.ModelProcessor&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project131.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.String</td>
+                    <td>org.glassfish.jersey.tests.e2e.client.InjectionManagerProviderTest.MyInjectedService</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project132.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>Composition</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.hk2.api.ServiceLocator</td>
+                    <td>org.glassfish.jersey.hk2.AbstractHk2InjectionManager</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project133.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>Composition</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.String</td>
+                    <td>org.glassfish.jersey.tests.e2e.server.InjectionManagerServerProviderTest.MyInjectedService</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project134.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>Composition</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.server.wadl.WadlApplicationContext</td>
+                    <td>javax.inject.Provider&lt;org.glassfish.jersey.server.wadl.WadlApplicationContext&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project135.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.server.ExtendedUriInfo</td>
+                    <td>javax.inject.Provider&lt;org.glassfish.jersey.server.ExtendedUriInfo&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project136.html">3</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>void</td>
+                    <td>java.util.concurrent.CompletionStage&lt;?&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project137.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.ws.rs.Flow.Subscriber&lt;? superjavax.ws.rs.sse.OutboundSseEvent&gt;</td>
+                    <td>javax.ws.rs.sse.SseEventSink</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project138.html">4</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>SIBLING</td>
+                    <td>-</td>
+                    <td>External -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.ws.rs.Flow.Subscriber&lt;javax.ws.rs.sse.OutboundSseEvent&gt;</td>
+                    <td>javax.ws.rs.sse.SseEventSink</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project139.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>SIBLING</td>
+                    <td>-</td>
+                    <td>External -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.ws.rs.sse.SseSubscription</td>
+                    <td>org.glassfish.jersey.internal.jsr166.Flow.Subscription</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project140.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.ws.rs.Flow.Subscriber</td>
+                    <td>org.glassfish.jersey.internal.jsr166.Flow.Subscriber</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project141.html">4</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.internal.inject.InjectionManager</td>
+                    <td>java.util.Set&lt;org.glassfish.jersey.spi.HeaderDelegateProvider&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project142.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.model.internal.CommonConfigTest.ComplexEmptyProviderFeature</td>
+                    <td>org.glassfish.jersey.tests.e2e.common.model.internal.CommonConfigTest.ComplexEmptyProvider</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project143.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>OutboundJaxrsResponse.ResponseBuilder</td>
+                    <td>javax.ws.rs.core.Response.ResponseBuilder</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project144.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.model.internal.CommonConfigTest.ComplexEmptyProvider</td>
+                    <td>org.glassfish.jersey.tests.e2e.common.model.internal.CommonConfigTest.ComplexEmptyProviderFeature</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project145.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.Collection</td>
+                    <td>java.util.List</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project146.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.server.internal.inject.MatrixParamValueSupplierProvider</td>
+                    <td>org.glassfish.jersey.server.spi.internal.ValueParamProvider</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project147.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.function.Supplier</td>
+                    <td>java.util.function.Function</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project148.html">9</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.server.internal.inject.AsyncResponseValueSupplierProvider</td>
+                    <td>org.glassfish.jersey.server.internal.inject.AsyncResponseValueParamProvider</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project149.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.server.internal.inject.AbstractRequestDerivedValueSupplier</td>
+                    <td>java.util.function.Function</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project150.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.server.internal.inject.QueryParamValueSupplierProvider</td>
+                    <td>org.glassfish.jersey.server.spi.internal.ValueParamProvider</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project151.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.server.spi.internal.ValueSupplierProvider</td>
+                    <td>org.glassfish.jersey.server.spi.internal.ValueParamProvider</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project152.html">24</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.hk2.api.Injectee</td>
+                    <td>org.glassfish.jersey.inject.hk2.ContextInjectionResolverImpl.CacheKey</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project153.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>Composition</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.internal.util.collection.Value&lt;java.util.concurrent.ExecutorService&gt;</td>
+                    <td>java.util.concurrent.ExecutorService</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project154.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.internal.util.collection.Ref&lt;org.glassfish.jersey.server.internal.process.RequestProcessingContext&gt;</td>
+                    <td>org.glassfish.jersey.server.internal.process.RequestProcessingContextReference</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project155.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.internal.util.collection.LazyValue</td>
+                    <td>java.util.function.Supplier</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project156.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.media.sse.OutboundEvent</td>
+                    <td>javax.ws.rs.sse.OutboundSseEvent</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project157.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Internal -> External</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.reflect.Type</td>
+                    <td>java.lang.Class</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project158.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.String</td>
+                    <td>java.lang.Class&lt;?&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project159.html">4</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>SIBLING</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>javax.inject.Provider&lt;org.glassfish.jersey.server.wadl.WadlApplicationContext&gt;</td>
+                    <td>org.glassfish.jersey.server.wadl.WadlApplicationContext</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project160.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.process.internal.RequestScope.Instance</td>
+                    <td>org.glassfish.jersey.process.internal.RequestContext</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project161.html">30</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.reflect.Type</td>
+                    <td>java.lang.Class&lt;T&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project162.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.CompletableFuture</td>
+                    <td>java.util.concurrent.CompletionStage</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project163.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.CharSequence</td>
+                    <td>java.lang.StringBuilder</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project164.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.glassfish.jersey.internal.util.collection.Value&lt;org.glassfish.jersey.server.internal.process.AsyncContext&gt;</td>
+                    <td>org.glassfish.jersey.server.AsyncContext</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project165.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.Character</td>
+                    <td>char</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project166.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>Unboxing</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>org.openjdk.jmh.annotations.State</td>
+                    <td>org.glassfish.jersey.media.sse.internal.EventProcessor.State</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project167.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>External -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.ScheduledExecutorService</td>
+                    <td>org.glassfish.jersey.media.sse.EventSource.CloseableClientExecutor</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/jersey/tci_project168.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>Composition</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+            </table>
+
+
+        </div><!--/ 1st container end -->
+
+
+        <div class="gap-60"></div>
+    </section><!--/ Main container end -->
+
+    <script src="../tablefilter/tablefilter.js"></script>
+    <!--base_path: '/tablefilter/',-->
+    <script>
+        var tf = new TableFilter('AllTypeChanges', {
+            col_types: [
+                'string', 'string', 'number', 'number', 'number',
+                'string', 'string', 'string']
+        });
+        tf.init();
+    </script>
+
+    <!-- initialize jQuery Library -->
+        <script type="text/javascript" src="../js/jquery.js"></script>
+        <!-- Bootstrap jQuery -->
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+        <!-- Style Switcher -->
+        <script type="text/javascript" src="../js/style-switcher.js"></script>
+        <!-- Owl Carousel -->
+        <script type="text/javascript" src="../js/owl.carousel.js"></script>
+        <!-- PrettyPhoto -->
+        <script type="text/javascript" src="../js/jquery.prettyPhoto.js"></script>
+        <!-- Bxslider -->
+        <script type="text/javascript" src="../js/jquery.flexslider.js"></script>
+        <!-- CD Hero slider -->
+        <script type="text/javascript" src="../js/cd-hero.js"></script>
+        <!-- Isotope -->
+        <script type="text/javascript" src="../js/isotope.js"></script>
+        <script type="text/javascript" src="../js/ini.isotope.js"></script>
+        <!-- Wow Animation -->
+        <script type="text/javascript" src="../js/wow.min.js"></script>
+        <!-- SmoothScroll -->
+        <script type="text/javascript" src="../js/smoothscroll.js"></script>
+        <!-- Eeasing -->
+        <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+        <!-- Counter -->
+        <script type="text/javascript" src="../js/jquery.counterup.min.js"></script>
+        <!-- Waypoints -->
+        <script type="text/javascript" src="../js/waypoints.min.js"></script>
+        <!-- Template custom -->
+        <script type="text/javascript" src="../js/custom.js"></script>
+</div>
+</body>
+</html>

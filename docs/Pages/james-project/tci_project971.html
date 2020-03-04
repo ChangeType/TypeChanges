@@ -1,0 +1,689 @@
+<!-- #######  YAY, I AM THE SOURCE EDITOR! #########-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>java.util.concurrent.CompletableFuture to reactor.core.publisher.Mono</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="icon" href="img/favicon/favicon-32x32.png" type="image/x-icon"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.png">
+
+    <!-- CSS
+    ================================================== -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <!-- Template styles-->
+    <link rel="stylesheet" href="../../css/style.css">
+    <!-- Responsive styles-->
+    <link rel="stylesheet" href="../../css/responsive.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="../../css/animate.css">
+    <!-- Prettyphoto -->
+    <link rel="stylesheet" href="../../css/prettyPhoto.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="../../css/owl.carousel.css">
+    <link rel="stylesheet" href="../../css/owl.theme.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="../../css/flexslider.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="../../css/cd-hero.css">
+    <!-- Style Swicther -->
+    <link id="style-switch" href="../../css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<div class="body-inner">
+    <header id="header" class="navbar-fixed-top header" role="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 heading">
+                    <!-- Logo start -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div><!--/ Logo end -->
+                    <nav class="collapse navbar-collapse clearfix" role="navigation">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="../../index.html"><p class="text-danger">Home</p></a></li>
+<!--                            <li><a href=..\james-project><p class="text-danger">Examples</p></a></li>-->
+                        </ul>
+                    </nav><!--/ Navigation end -->
+                </div><!--/ Row end -->
+            </div>
+        </div><!--/ Container end -->
+    </header><!--/ Header end -->
+
+
+    <section id="main-container">
+        <div class="container">
+
+            <!-- Company Profile -->
+            <div class="row">
+<!--                <div class="col-md-12 heading">-->
+                    <!--<span class="title-icon classic pull-left"><i class="fa fa-suitcase"></i></span>-->
+                    <h2 class="title classic">java.util.concurrent.CompletableFuture to reactor.core.publisher.Mono</h2>
+                    <!--<h2 class="title classic">URL: </h2>-->
+<!--                </div>-->
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h3>No. of Instances - 287</h3>
+                <h3>No. of Commits - 13</h3>
+                <h3>No. of Projects - {'james-project'}</h3>
+                <h3>Hierarchy/Composition: -</h3>
+                <h3>Primitive Info: -</h3>
+                <h3>NameSpace: Jdk -> External</h3>
+                <h3>Mapping:</h3>
+            </div>
+            <div class="col-md-12 heading">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 heading">
+                        <ol>
+                            
+                            <li><a href="#" onclick="toggle_visibility('MthdRename');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                MthdRename</i></a></li>
+                            <ul id="MthdRename" , style="display: none;">
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/f121dd8d413321db9a85a5cce42b572da392c2b5?diff=split#diff-4b53dfed964dcacbbbc798b43364c851L81">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/f121dd8d413321db9a85a5cce42b572da392c2b5?diff=split#diff-4b53dfed964dcacbbbc798b43364c851R80">map</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/f121dd8d413321db9a85a5cce42b572da392c2b5?diff=split#diff-b6467379942492b17eb44e690bd790bdL61">thenRunAsync</a> to <a
+                                        href="https://github.com/apache/james-project/commit/f121dd8d413321db9a85a5cce42b572da392c2b5?diff=split#diff-b6467379942492b17eb44e690bd790bdR60">doOnTerminate</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/2133f0b1cd4362fda2f9541ccc02d4703cc3ddec?diff=split#diff-c686b43c857c928229ca2afa0be62da6L85">executeReturnApplied</a> to <a
+                                        href="https://github.com/apache/james-project/commit/2133f0b1cd4362fda2f9541ccc02d4703cc3ddec?diff=split#diff-c686b43c857c928229ca2afa0be62da6R85">executeReturnAppliedReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/1295a89b3cf63106dadfa7d4e9c859a38c9618eb?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562L407">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/1295a89b3cf63106dadfa7d4e9c859a38c9618eb?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562R415">map</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/1295a89b3cf63106dadfa7d4e9c859a38c9618eb?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562L379">thenCompose</a> to <a
+                                        href="https://github.com/apache/james-project/commit/1295a89b3cf63106dadfa7d4e9c859a38c9618eb?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562R385">flatMap</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-ef835fcccebf8843e2ec57bbe9feb2c7L129">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-ef835fcccebf8843e2ec57bbe9feb2c7R128">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-c593f53cccafe86366f1b4bc22b1d5b8L116">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-c593f53cccafe86366f1b4bc22b1d5b8R114">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-c593f53cccafe86366f1b4bc22b1d5b8L108">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-c593f53cccafe86366f1b4bc22b1d5b8R106">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-ef835fcccebf8843e2ec57bbe9feb2c7L182">execute</a> to <a
+                                        href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-ef835fcccebf8843e2ec57bbe9feb2c7R181">executeReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-c593f53cccafe86366f1b4bc22b1d5b8L112">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-c593f53cccafe86366f1b4bc22b1d5b8R110">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-71c946a36e842bf672d8c848d915d69eL80">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-71c946a36e842bf672d8c848d915d69eR78">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-ef835fcccebf8843e2ec57bbe9feb2c7L167">execute</a> to <a
+                                        href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-ef835fcccebf8843e2ec57bbe9feb2c7R166">executeReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-468ae55679a03f2bc610e9c117ea499aL101">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-468ae55679a03f2bc610e9c117ea499aR100">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-ef835fcccebf8843e2ec57bbe9feb2c7L122">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-ef835fcccebf8843e2ec57bbe9feb2c7R121">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-71c946a36e842bf672d8c848d915d69eL87">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-71c946a36e842bf672d8c848d915d69eR85">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-c593f53cccafe86366f1b4bc22b1d5b8L120">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-c593f53cccafe86366f1b4bc22b1d5b8R118">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-ef835fcccebf8843e2ec57bbe9feb2c7L161">execute</a> to <a
+                                        href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-ef835fcccebf8843e2ec57bbe9feb2c7R160">executeReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-468ae55679a03f2bc610e9c117ea499aL107">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-468ae55679a03f2bc610e9c117ea499aR106">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-ef835fcccebf8843e2ec57bbe9feb2c7L174">execute</a> to <a
+                                        href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-ef835fcccebf8843e2ec57bbe9feb2c7R173">executeReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-7bbc4d74f0d86921f14ceb719a0a7cdcL76">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-7bbc4d74f0d86921f14ceb719a0a7cdcR74">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-682dcf9ed7527f38df7ad52877ef0385L79">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-682dcf9ed7527f38df7ad52877ef0385R80">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-682dcf9ed7527f38df7ad52877ef0385L84">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-682dcf9ed7527f38df7ad52877ef0385R85">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-4bd0acb04a0cd2a7c809eb49d56f4de5L141">thenCombine</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-4bd0acb04a0cd2a7c809eb49d56f4de5R129">zipWith</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-ab7d77ea6751b0fc0852bb41a04d74f2L173">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-ab7d77ea6751b0fc0852bb41a04d74f2R174">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-d51d49f39b039e7479e23afb7d457e05L361">thenCombine</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-d51d49f39b039e7479e23afb7d457e05R354">zipWith</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-4bd0acb04a0cd2a7c809eb49d56f4de5L141">thenCombine</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-4bd0acb04a0cd2a7c809eb49d56f4de5R129">zipWith</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-5d07cd95d17c5344b1a0ef95a58a1d5aL148">executeSingleRow</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-5d07cd95d17c5344b1a0ef95a58a1d5aR148">executeSingleRowReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-68bb49a7420283182af9b73703ebf9c2L76">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-68bb49a7420283182af9b73703ebf9c2R77">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-ab7d77ea6751b0fc0852bb41a04d74f2L199">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-ab7d77ea6751b0fc0852bb41a04d74f2R200">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-4bd0acb04a0cd2a7c809eb49d56f4de5L141">thenCombine</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-4bd0acb04a0cd2a7c809eb49d56f4de5R129">zipWith</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-d51d49f39b039e7479e23afb7d457e05L256">execute</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-d51d49f39b039e7479e23afb7d457e05R251">executeReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-ec96a9548465aaf8c8eedcb3c0c4d8d9L168">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-ec96a9548465aaf8c8eedcb3c0c4d8d9R165">flatMap</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-7aa970bac5fc945f870fcb185517a410L165">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-7aa970bac5fc945f870fcb185517a410R166">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-42c4f47c9755a3cb53e0a79e11842b2cL132">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-42c4f47c9755a3cb53e0a79e11842b2cR132">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-2b10999188ea5d9ebb260d8286ed63a3L79">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-2b10999188ea5d9ebb260d8286ed63a3R78">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-eab8b1898b6f8e4e0fd44e1780a79051L111">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-eab8b1898b6f8e4e0fd44e1780a79051R112">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-8b20aff335a82d2d9a7263b2e43709e3L197">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-8b20aff335a82d2d9a7263b2e43709e3R200">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-f215f964fba1b9ddaf1f3cf18f21e6beL152">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-f215f964fba1b9ddaf1f3cf18f21e6beR153">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-2b10999188ea5d9ebb260d8286ed63a3L85">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-2b10999188ea5d9ebb260d8286ed63a3R84">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-4bd0acb04a0cd2a7c809eb49d56f4de5L274">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-4bd0acb04a0cd2a7c809eb49d56f4de5R260">map</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-ec96a9548465aaf8c8eedcb3c0c4d8d9L159">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-ec96a9548465aaf8c8eedcb3c0c4d8d9R156">flatMap</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-5d07cd95d17c5344b1a0ef95a58a1d5aL102">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-5d07cd95d17c5344b1a0ef95a58a1d5aR102">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-d0968b59177c4f2aba0dd89563c73bb9L179">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-d0968b59177c4f2aba0dd89563c73bb9R178">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-42c4f47c9755a3cb53e0a79e11842b2cL117">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-42c4f47c9755a3cb53e0a79e11842b2cR117">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-fc6af2db692e93ef4a95785f36671fffL155">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-fc6af2db692e93ef4a95785f36671fffR157">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-8e07bf51976156fca110cd7d2eaf6161L95">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-8e07bf51976156fca110cd7d2eaf6161R96">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-6ae7e028e251beb6221c1b21deb6612eL167">execute</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-6ae7e028e251beb6221c1b21deb6612eR153">executeSingleRowReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-8520e94db97249bb70d6e603063a2779L162">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-8520e94db97249bb70d6e603063a2779R161">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/ba4d902ee3ff8b53999597067541cf8324030964?diff=split#diff-b09b304ff65da56cb96e2b664826ec7dL102">thenCompose</a> to <a
+                                        href="https://github.com/apache/james-project/commit/ba4d902ee3ff8b53999597067541cf8324030964?diff=split#diff-b09b304ff65da56cb96e2b664826ec7dR93">flatMap</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/7a02725b4ba94bc14f29ce94d7d727fd950d620e?diff=split#diff-f215f964fba1b9ddaf1f3cf18f21e6beL161">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/7a02725b4ba94bc14f29ce94d7d727fd950d620e?diff=split#diff-f215f964fba1b9ddaf1f3cf18f21e6beR160">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/7a02725b4ba94bc14f29ce94d7d727fd950d620e?diff=split#diff-ab7d77ea6751b0fc0852bb41a04d74f2L182">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/7a02725b4ba94bc14f29ce94d7d727fd950d620e?diff=split#diff-ab7d77ea6751b0fc0852bb41a04d74f2R182">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/6d72e4d20e38fa38c2e2434a199966679470847b?diff=split#diff-170f2f459f282f9f5c4c64e389ce4d33L130">executeVoid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/6d72e4d20e38fa38c2e2434a199966679470847b?diff=split#diff-170f2f459f282f9f5c4c64e389ce4d33R130">executeVoidReactor</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/ea3e23192b86c3f28e04357405554cee92859f6a?diff=split#diff-ab7d77ea6751b0fc0852bb41a04d74f2L215">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/ea3e23192b86c3f28e04357405554cee92859f6a?diff=split#diff-ab7d77ea6751b0fc0852bb41a04d74f2R214">map</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/ea3e23192b86c3f28e04357405554cee92859f6a?diff=split#diff-e55807292088fe894b8fbc65099962e1L55">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/ea3e23192b86c3f28e04357405554cee92859f6a?diff=split#diff-e55807292088fe894b8fbc65099962e1R54">map</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('Other');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                Other</i></a></li>
+                            <ul id="Other" , style="display: none;">
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/f121dd8d413321db9a85a5cce42b572da392c2b5?diff=split#diff-254950a8749abca4ad0fd563d7288553L94">executor.executeVoid(insertOne.bind().setTimestamp(BROWSE_START,Date.from(sliceStart)).setString(QUEUE_NAME,mailQueueName.asString()))</a> to <a
+                                        href="https://github.com/apache/james-project/commit/f121dd8d413321db9a85a5cce42b572da392c2b5?diff=split#diff-254950a8749abca4ad0fd563d7288553R93">executor.executeVoid(insertOne.bind().setTimestamp(BROWSE_START,Date.from(sliceStart)).setString(QUEUE_NAME,mailQueueName.asString()))</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/f121dd8d413321db9a85a5cce42b572da392c2b5?diff=split#diff-2667ff4c8bd9a753c9820d0766a68620L123">executor.executeVoid(insert.bind().setString(QUEUE_NAME,enqueuedItem.getMailQueueName().asString()).setTimestamp(TIME_RANGE_START,Date.from(slicingContext.getTimeRangeStart())).setInt(BUCKET_ID,slicingContext.getBucketId().getValue()).setTimestamp(ENQUEUED_TIME,Date.from(enqueuedItem.getEnqueuedTime())).setString(MAIL_KEY,mail.getName()).setString(HEADER_BLOB_ID,mimeMessagePartsId.getHeaderBlobId().asString()).setString(BODY_BLOB_ID,mimeMessagePartsId.getBodyBlobId().asString()).setString(STATE,mail.getState()).setString(SENDER,mail.getMaybeSender().asString(null)).setList(RECIPIENTS,asStringList(mail.getRecipients())).setString(ERROR_MESSAGE,mail.getErrorMessage()).setString(REMOTE_ADDR,mail.getRemoteAddr()).setString(REMOTE_HOST,mail.getRemoteHost()).setTimestamp(LAST_UPDATED,mail.getLastUpdated()).setMap(ATTRIBUTES,toRawAttributeMap(mail)).setMap(PER_RECIPIENT_SPECIFIC_HEADERS,toHeaderMap(cassandraTypesProvider,mail.getPerRecipientSpecificHeaders())))</a> to <a
+                                        href="https://github.com/apache/james-project/commit/f121dd8d413321db9a85a5cce42b572da392c2b5?diff=split#diff-2667ff4c8bd9a753c9820d0766a68620R127">executor.executeVoid(insert.bind().setString(QUEUE_NAME,enqueuedItem.getMailQueueName().asString()).setTimestamp(TIME_RANGE_START,Date.from(slicingContext.getTimeRangeStart())).setInt(BUCKET_ID,slicingContext.getBucketId().getValue()).setTimestamp(ENQUEUED_TIME,Date.from(enqueuedItem.getEnqueuedTime())).setString(MAIL_KEY,mail.getName()).setString(HEADER_BLOB_ID,mimeMessagePartsId.getHeaderBlobId().asString()).setString(BODY_BLOB_ID,mimeMessagePartsId.getBodyBlobId().asString()).setString(STATE,mail.getState()).setString(SENDER,mail.getMaybeSender().asString(null)).setList(RECIPIENTS,asStringList(mail.getRecipients())).setString(ERROR_MESSAGE,mail.getErrorMessage()).setString(REMOTE_ADDR,mail.getRemoteAddr()).setString(REMOTE_HOST,mail.getRemoteHost()).setTimestamp(LAST_UPDATED,mail.getLastUpdated()).setMap(ATTRIBUTES,toRawAttributeMap(mail)).setMap(PER_RECIPIENT_SPECIFIC_HEADERS,toHeaderMap(cassandraTypesProvider,mail.getPerRecipientSpecificHeaders())))</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/f121dd8d413321db9a85a5cce42b572da392c2b5?diff=split#diff-254950a8749abca4ad0fd563d7288553L88">executor.executeVoid(updateOne.bind().setTimestamp(BROWSE_START,Date.from(sliceStart)).setString(QUEUE_NAME,mailQueueName.asString()))</a> to <a
+                                        href="https://github.com/apache/james-project/commit/f121dd8d413321db9a85a5cce42b572da392c2b5?diff=split#diff-254950a8749abca4ad0fd563d7288553R87">executor.executeVoid(updateOne.bind().setTimestamp(BROWSE_START,Date.from(sliceStart)).setString(QUEUE_NAME,mailQueueName.asString()))</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/f121dd8d413321db9a85a5cce42b572da392c2b5?diff=split#diff-4b53dfed964dcacbbbc798b43364c851L68">executor.executeVoid(insertOne.bind().setString(QUEUE_NAME,mailQueueName.asString()).setString(MAIL_KEY,mailKey.getMailKey()))</a> to <a
+                                        href="https://github.com/apache/james-project/commit/f121dd8d413321db9a85a5cce42b572da392c2b5?diff=split#diff-4b53dfed964dcacbbbc798b43364c851R67">executor.executeVoid(insertOne.bind().setString(QUEUE_NAME,mailQueueName.asString()).setString(MAIL_KEY,mailKey.getMailKey()))</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/f121dd8d413321db9a85a5cce42b572da392c2b5?diff=split#diff-4b53dfed964dcacbbbc798b43364c851L74">executor.executeReturnExists(selectOne.bind().setString(QUEUE_NAME,mailQueueName.asString()).setString(MAIL_KEY,mailKey.getMailKey()))</a> to <a
+                                        href="https://github.com/apache/james-project/commit/f121dd8d413321db9a85a5cce42b572da392c2b5?diff=split#diff-4b53dfed964dcacbbbc798b43364c851R73">executor.executeReturnExists(selectOne.bind().setString(QUEUE_NAME,mailQueueName.asString()).setString(MAIL_KEY,mailKey.getMailKey()))</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/1295a89b3cf63106dadfa7d4e9c859a38c9618eb?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562L432">CompletableFuture.completedFuture(success)</a> to <a
+                                        href="https://github.com/apache/james-project/commit/1295a89b3cf63106dadfa7d4e9c859a38c9618eb?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562R440">false</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-d51d49f39b039e7479e23afb7d457e05L374">blobStore.readBytes(blobIdFactory.from(row.getString(field)))</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-d51d49f39b039e7479e23afb7d457e05R367">blobStore.readBytes(blobIdFactory.from(row.getString(field)))</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-6ae7e028e251beb6221c1b21deb6612eL116">resultSet -&gt; getAcl(cassandraId,resultSet)</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-6ae7e028e251beb6221c1b21deb6612eR113">MailboxACL.EMPTY</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('AddRemoveMthdInvc');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                AddRemoveMthdInvc</i></a></li>
+                            <ul id="AddRemoveMthdInvc" , style="display: none;">
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/f121dd8d413321db9a85a5cce42b572da392c2b5?diff=split#diff-b6467379942492b17eb44e690bd790bdL82">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/f121dd8d413321db9a85a5cce42b572da392c2b5?diff=split#diff-b6467379942492b17eb44e690bd790bdR81">next</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/f121dd8d413321db9a85a5cce42b572da392c2b5?diff=split#diff-224b1398e52090ffcf6ce175f0a2fd34L119">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/f121dd8d413321db9a85a5cce42b572da392c2b5?diff=split#diff-224b1398e52090ffcf6ce175f0a2fd34R118">map</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/f121dd8d413321db9a85a5cce42b572da392c2b5?diff=split#diff-254950a8749abca4ad0fd563d7288553L83">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/f121dd8d413321db9a85a5cce42b572da392c2b5?diff=split#diff-254950a8749abca4ad0fd563d7288553R82">map</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/bf2dced2e48d978c3f0266e9c2ef48896f564db5?diff=split#diff-b5b0ebcf2fabde5d79014504b92d7855L72">truncateIfNeeded(executor,name,resultSet)</a> to <a
+                                        href="https://github.com/apache/james-project/commit/bf2dced2e48d978c3f0266e9c2ef48896f564db5?diff=split#diff-b5b0ebcf2fabde5d79014504b92d7855R70">Mono.fromFuture(executor.execute(QueryBuilder.truncate(name)))</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/bf2dced2e48d978c3f0266e9c2ef48896f564db5?diff=split#diff-b5b0ebcf2fabde5d79014504b92d7855L72">thenCompose</a> to <a
+                                        href="https://github.com/apache/james-project/commit/bf2dced2e48d978c3f0266e9c2ef48896f564db5?diff=split#diff-b5b0ebcf2fabde5d79014504b92d7855R70">flatMap</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/1295a89b3cf63106dadfa7d4e9c859a38c9618eb?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562L230">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/1295a89b3cf63106dadfa7d4e9c859a38c9618eb?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562R229">flatMap</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/1295a89b3cf63106dadfa7d4e9c859a38c9618eb?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562L432">thenCompose</a> to <a
+                                        href="https://github.com/apache/james-project/commit/1295a89b3cf63106dadfa7d4e9c859a38c9618eb?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562R440">flatMap</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-d2c94329d1a24592de915aee96c43bf6L269">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/06ee1e430335693a13ee7682c98ed093e17bcd2a?diff=split#diff-d2c94329d1a24592de915aee96c43bf6R270">then</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-76ea740bada9de5b99a298581d2d317fL153">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-76ea740bada9de5b99a298581d2d317fR136">defer</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8L144">activateNewScript.join()</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8R150">activateNewScript.blockOptional().isPresent()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562L265">nextUid</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562R261">cache</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8L191">getScript</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8R192">cache</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562L266">nextModSeq</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562R262">cache</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8L78">sizeDifference.join()</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8R84">sizeDifference.block()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8L150">scriptNameOptional.map(activeScriptInfo -&gt; updateScriptActivation(user,activeScriptInfo.getName(),false).&lt;Void&gt;thenApply(any -&gt; null)).orElse(CompletableFuture.completedFuture(null))</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8R156">updateScriptActivation(user,activeScriptInfo.getName(),false).then()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8L150">thenCompose</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8R156">flatMap</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-5d07cd95d17c5344b1a0ef95a58a1d5aL132">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-5d07cd95d17c5344b1a0ef95a58a1d5aR132">map</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8L189">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8R193">hasElement</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-d2c94329d1a24592de915aee96c43bf6L124">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-d2c94329d1a24592de915aee96c43bf6R119">switchIfEmpty</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-e1bfa544a5154e502c856bd10859f37fL158">thenCompose</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-e1bfa544a5154e502c856bd10859f37fR144">then</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-6ae7e028e251beb6221c1b21deb6612eL116">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-6ae7e028e251beb6221c1b21deb6612eR113">switchIfEmpty</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-d51d49f39b039e7479e23afb7d457e05L272">contentFuture</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-d51d49f39b039e7479e23afb7d457e05R265">buildContentRetriever(fetchType,row)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-e1bfa544a5154e502c856bd10859f37fL152">thenCompose</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-e1bfa544a5154e502c856bd10859f37fR138">flatMap</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8L161">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8R164">thenReturn</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8L216">thenCompose</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8R219">flatMap</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-4bd0acb04a0cd2a7c809eb49d56f4de5L177">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-4bd0acb04a0cd2a7c809eb49d56f4de5R165">switchIfEmpty</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-f215f964fba1b9ddaf1f3cf18f21e6beL212">mailboxId.map(cassandraId -&gt; cassandraAsyncExecutor.execute(select.bind().setUUID(MESSAGE_ID,messageId.get()).setUUID(MAILBOX_ID,cassandraId.asUuid())))</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-f215f964fba1b9ddaf1f3cf18f21e6beR213">mailboxId.map(cassandraId -&gt; cassandraAsyncExecutor.executeReactor(select.bind().setUUID(MESSAGE_ID,messageId.get()).setUUID(MAILBOX_ID,cassandraId.asUuid())))</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-f215f964fba1b9ddaf1f3cf18f21e6beL212">cassandraAsyncExecutor.execute(selectAll.bind().setUUID(MESSAGE_ID,messageId.get()))</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-f215f964fba1b9ddaf1f3cf18f21e6beR213">cassandraAsyncExecutor.executeReactor(selectAll.bind().setUUID(MESSAGE_ID,messageId.get()))</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-d2c94329d1a24592de915aee96c43bf6L209">composedMessageIds.map(this::deleteIds).reduce((f1,f2) -&gt; CompletableFuture.allOf(f1,f2))</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-d2c94329d1a24592de915aee96c43bf6R198">imapUidDAO.retrieve(messageId,mailboxId).flatMap(this::deleteIds)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-d2c94329d1a24592de915aee96c43bf6L209">thenCompose</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-d2c94329d1a24592de915aee96c43bf6R198">then</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/ba4d902ee3ff8b53999597067541cf8324030964?diff=split#diff-b0e048bea98bb7fbf6421b99e8418c69L177">assertThat(blobIdFuture)</a> to <a
+                                        href="https://github.com/apache/james-project/commit/ba4d902ee3ff8b53999597067541cf8324030964?diff=split#diff-b0e048bea98bb7fbf6421b99e8418c69R181">assertThat(blobIdFuture.toFuture())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/ba4d902ee3ff8b53999597067541cf8324030964?diff=split#diff-b0e048bea98bb7fbf6421b99e8418c69L185">assertThat(resultFuture)</a> to <a
+                                        href="https://github.com/apache/james-project/commit/ba4d902ee3ff8b53999597067541cf8324030964?diff=split#diff-b0e048bea98bb7fbf6421b99e8418c69R188">assertThat(resultFuture.toFuture())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/ba4d902ee3ff8b53999597067541cf8324030964?diff=split#diff-b0e048bea98bb7fbf6421b99e8418c69L170">assertThat(blobIdFuture)</a> to <a
+                                        href="https://github.com/apache/james-project/commit/ba4d902ee3ff8b53999597067541cf8324030964?diff=split#diff-b0e048bea98bb7fbf6421b99e8418c69R173">assertThat(blobIdFuture.toFuture())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/ba4d902ee3ff8b53999597067541cf8324030964?diff=split#diff-f1ab47e6c58ed6fbf7ee497920acf24aL98">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/ba4d902ee3ff8b53999597067541cf8324030964?diff=split#diff-f1ab47e6c58ed6fbf7ee497920acf24aR97">zipWith</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/ba4d902ee3ff8b53999597067541cf8324030964?diff=split#diff-995992db106d7e10ad7bc955b107291aL169">toFuture</a> to <a
+                                        href="https://github.com/apache/james-project/commit/ba4d902ee3ff8b53999597067541cf8324030964?diff=split#diff-995992db106d7e10ad7bc955b107291aR166">map</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/ba4d902ee3ff8b53999597067541cf8324030964?diff=split#diff-995992db106d7e10ad7bc955b107291aL121">toFuture</a> to <a
+                                        href="https://github.com/apache/james-project/commit/ba4d902ee3ff8b53999597067541cf8324030964?diff=split#diff-995992db106d7e10ad7bc955b107291aR119">saveAsMono</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/7a02725b4ba94bc14f29ce94d7d727fd950d620e?diff=split#diff-d51d49f39b039e7479e23afb7d457e05L178">cassandraAsyncExecutor.executeVoid(boundWriteStatement(message,pair))</a> to <a
+                                        href="https://github.com/apache/james-project/commit/7a02725b4ba94bc14f29ce94d7d727fd950d620e?diff=split#diff-d51d49f39b039e7479e23afb7d457e05R179">cassandraAsyncExecutor.executeVoidReactor(boundWriteStatement(message,pair))</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/7a02725b4ba94bc14f29ce94d7d727fd950d620e?diff=split#diff-d51d49f39b039e7479e23afb7d457e05L178">thenCompose</a> to <a
+                                        href="https://github.com/apache/james-project/commit/7a02725b4ba94bc14f29ce94d7d727fd950d620e?diff=split#diff-d51d49f39b039e7479e23afb7d457e05R179">then</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/7a02725b4ba94bc14f29ce94d7d727fd950d620e?diff=split#diff-773ff77a27565176bd9ef053f4205836L72">toFuture</a> to <a
+                                        href="https://github.com/apache/james-project/commit/7a02725b4ba94bc14f29ce94d7d727fd950d620e?diff=split#diff-773ff77a27565176bd9ef053f4205836R72">save</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/f5ea01edff7555547f142e1756857481cfca578f?diff=split#diff-de07b97f6b2a864f703c052e47e76803L101">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/f5ea01edff7555547f142e1756857481cfca578f?diff=split#diff-de07b97f6b2a864f703c052e47e76803R100">map</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/f5ea01edff7555547f142e1756857481cfca578f?diff=split#diff-38542b90c12834cadd3bd67066c36671L61">thenCombine</a> to <a
+                                        href="https://github.com/apache/james-project/commit/f5ea01edff7555547f142e1756857481cfca578f?diff=split#diff-38542b90c12834cadd3bd67066c36671R59">switchIfEmpty</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/f5ea01edff7555547f142e1756857481cfca578f?diff=split#diff-12119333929b2132aea2746bfa83335eL88">toFuture</a> to <a
+                                        href="https://github.com/apache/james-project/commit/f5ea01edff7555547f142e1756857481cfca578f?diff=split#diff-12119333929b2132aea2746bfa83335eR86">storeMail</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/f5ea01edff7555547f142e1756857481cfca578f?diff=split#diff-12119333929b2132aea2746bfa83335eL130">toFuture</a> to <a
+                                        href="https://github.com/apache/james-project/commit/f5ea01edff7555547f142e1756857481cfca578f?diff=split#diff-12119333929b2132aea2746bfa83335eR128">map</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/ea3e23192b86c3f28e04357405554cee92859f6a?diff=split#diff-cdac4a94fdd4faf820562da91bfaf3c8L61">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/ea3e23192b86c3f28e04357405554cee92859f6a?diff=split#diff-cdac4a94fdd4faf820562da91bfaf3c8R60">switchIfEmpty</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/ea3e23192b86c3f28e04357405554cee92859f6a?diff=split#diff-d030153ca3e53cfe7a07c450406aea70L87">thenApply</a> to <a
+                                        href="https://github.com/apache/james-project/commit/ea3e23192b86c3f28e04357405554cee92859f6a?diff=split#diff-d030153ca3e53cfe7a07c450406aea70R86">map</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/ea3e23192b86c3f28e04357405554cee92859f6a?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8L253">hasUserQuota.thenCombine(hasGlobalQuota,(a,b) -&gt; a || b)</a> to <a
+                                        href="https://github.com/apache/james-project/commit/ea3e23192b86c3f28e04357405554cee92859f6a?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8R276">hasUserQuota.zipWith(hasGlobalQuota,(a,b) -&gt; a || b)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/ea3e23192b86c3f28e04357405554cee92859f6a?diff=split#diff-037d88a3d09a1f6d6e56c9e680c18611L126">CompletableFuture.runAsync(server::stop)</a> to <a
+                                        href="https://github.com/apache/james-project/commit/ea3e23192b86c3f28e04357405554cee92859f6a?diff=split#diff-037d88a3d09a1f6d6e56c9e680c18611R127">Mono.fromRunnable(server::stop)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/ea3e23192b86c3f28e04357405554cee92859f6a?diff=split#diff-067414b8d5d6e6e6a49f8458fe44d2ffL335">assertThatThrownBy(() -&gt; blobStoreOperation.apply(blobStoreThrowsException))</a> to <a
+                                        href="https://github.com/apache/james-project/commit/ea3e23192b86c3f28e04357405554cee92859f6a?diff=split#diff-067414b8d5d6e6e6a49f8458fe44d2ffR334">assertThatThrownBy(() -&gt; blobStoreOperation.apply(blobStoreThrowsException).block())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/ea3e23192b86c3f28e04357405554cee92859f6a?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8L253">hasUserQuota.thenCombine(hasGlobalQuota,(a,b) -&gt; a || b)</a> to <a
+                                        href="https://github.com/apache/james-project/commit/ea3e23192b86c3f28e04357405554cee92859f6a?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8R276">hasUserQuota.zipWith(hasGlobalQuota,(a,b) -&gt; a || b)</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('CascadingType');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                CascadingType</i></a></li>
+                            <ul id="CascadingType" , style="display: none;">
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562L265">CompletableFuture&lt;Optional&lt;MessageUid&gt;&gt;</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562R261">Mono&lt;MessageUid&gt;</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8L191">CompletableFuture&lt;Optional&lt;Script&gt;&gt;</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8R192">Mono&lt;Script&gt;</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562L266">CompletableFuture&lt;Optional&lt;Long&gt;&gt;</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562R262">Mono&lt;Long&gt;</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8L189">CompletableFuture&lt;Boolean&gt;</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8R193">Mono&lt;Boolean&gt;</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('VarRename');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                VarRename</i></a></li>
+                            <ul id="VarRename" , style="display: none;">
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562L265">uidFuture</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562R261">messageUidMono</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8L191">oldScriptFuture</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8R192">oldScript</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562L266">modseqFuture</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-aea9781d88fa7387b0a56f222ccd2562R262">nextModSeqMono</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8L189">scriptExistsFuture</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-63c48b46b445cfff5e9ea1b448c264a8R193">newScriptExists</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-4bd0acb04a0cd2a7c809eb49d56f4de5L274">toMailboxWithAclFuture</a> to <a
+                                        href="https://github.com/apache/james-project/commit/e4a737e52c34c217503dee3e69cc9d0275937046?diff=split#diff-4bd0acb04a0cd2a7c809eb49d56f4de5R260">toMailboxWithAcl</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/james-project/commit/ea3e23192b86c3f28e04357405554cee92859f6a?diff=split#diff-037d88a3d09a1f6d6e56c9e680c18611L126">stopCompletedFuture</a> to <a
+                                        href="https://github.com/apache/james-project/commit/ea3e23192b86c3f28e04357405554cee92859f6a?diff=split#diff-037d88a3d09a1f6d6e56c9e680c18611R127">stopMono</a>
+                                </li>
+                                
+                            </ul>
+                            
+                        </ol>
+
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- initialize jQuery Library -->
+            <script type="text/javascript" src="../../js/jquery.js"></script>
+            <!-- Bootstrap jQuery -->
+            <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+            <!-- Style Switcher -->
+            <script type="text/javascript" src="../../js/style-switcher.js"></script>
+            <!-- Owl Carousel -->
+            <script type="text/javascript" src="../../js/owl.carousel.js"></script>
+            <!-- PrettyPhoto -->
+            <script type="text/javascript" src="../../js/jquery.prettyPhoto.js"></script>
+            <!-- Bxslider -->
+            <script type="text/javascript" src="../../js/jquery.flexslider.js"></script>
+            <!-- CD Hero slider -->
+            <script type="text/javascript" src="../../js/cd-hero.js"></script>
+            <!-- Isotope -->
+            <script type="text/javascript" src="../../js/isotope.js"></script>
+            <script type="text/javascript" src="../../js/ini.isotope.js"></script>
+            <!-- Wow Animation -->
+            <script type="text/javascript" src="../../js/wow.min.js"></script>
+            <!-- SmoothScroll -->
+            <script type="text/javascript" src="../../js/smoothscroll.js"></script>
+            <!-- Eeasing -->
+            <script type="text/javascript" src="../../js/jquery.easing.1.3.js"></script>
+            <!-- Counter -->
+            <script type="text/javascript" src="../../js/jquery.counterup.min.js"></script>
+            <!-- Waypoints -->
+            <script type="text/javascript" src="../../js/waypoints.min.js"></script>
+            <!-- Template custom -->
+            <script type="text/javascript" src="../../js/custom.js"></script>
+        </div>
+    </section>
+</div>
+</body>
+
+<script type="text/javascript">
+    <!--
+    function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        if (e.style.display == 'block')
+            e.style.display = 'none';
+        else
+            e.style.display = 'block';
+    }
+
+    //-->
+</script>
+</html>

@@ -1,0 +1,984 @@
+<!-- #######  YAY, I AM THE SOURCE EDITOR! #########-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>org.neo4j.kernel.impl.util.StringLogger to org.neo4j.logging.Log</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="icon" href="img/favicon/favicon-32x32.png" type="image/x-icon"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.png">
+
+    <!-- CSS
+    ================================================== -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <!-- Template styles-->
+    <link rel="stylesheet" href="../../css/style.css">
+    <!-- Responsive styles-->
+    <link rel="stylesheet" href="../../css/responsive.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="../../css/animate.css">
+    <!-- Prettyphoto -->
+    <link rel="stylesheet" href="../../css/prettyPhoto.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="../../css/owl.carousel.css">
+    <link rel="stylesheet" href="../../css/owl.theme.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="../../css/flexslider.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="../../css/cd-hero.css">
+    <!-- Style Swicther -->
+    <link id="style-switch" href="../../css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<div class="body-inner">
+    <header id="header" class="navbar-fixed-top header" role="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 heading">
+                    <!-- Logo start -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div><!--/ Logo end -->
+                    <nav class="collapse navbar-collapse clearfix" role="navigation">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="../../index.html"><p class="text-danger">Home</p></a></li>
+<!--                            <li><a href=..\neo4j><p class="text-danger">Examples</p></a></li>-->
+                        </ul>
+                    </nav><!--/ Navigation end -->
+                </div><!--/ Row end -->
+            </div>
+        </div><!--/ Container end -->
+    </header><!--/ Header end -->
+
+
+    <section id="main-container">
+        <div class="container">
+
+            <!-- Company Profile -->
+            <div class="row">
+<!--                <div class="col-md-12 heading">-->
+                    <!--<span class="title-icon classic pull-left"><i class="fa fa-suitcase"></i></span>-->
+                    <h2 class="title classic">org.neo4j.kernel.impl.util.StringLogger to org.neo4j.logging.Log</h2>
+                    <!--<h2 class="title classic">URL: </h2>-->
+<!--                </div>-->
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h3>No. of Instances - 115</h3>
+                <h3>No. of Commits - 3</h3>
+                <h3>No. of Projects - {'neo4j'}</h3>
+                <h3>Hierarchy/Composition: -</h3>
+                <h3>Primitive Info: -</h3>
+                <h3>NameSpace: Internal -> Internal</h3>
+                <h3>Mapping:</h3>
+            </div>
+            <div class="col-md-12 heading">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 heading">
+                        <ol>
+                            
+                            <li><a href="#" onclick="toggle_visibility('VarRename');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                VarRename</i></a></li>
+                            <ul id="VarRename" , style="display: none;">
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-91d93a548adb6121cf267d881b1cb4a9L39">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-91d93a548adb6121cf267d881b1cb4a9R39">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-91d93a548adb6121cf267d881b1cb4a9L35">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-91d93a548adb6121cf267d881b1cb4a9R35">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-1ef68af8ce2bb1d57821b989eaa3b221L36">stringLogger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-1ef68af8ce2bb1d57821b989eaa3b221R36">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-77c78d81ca6336dd53ffe41e09680c23L34">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-77c78d81ca6336dd53ffe41e09680c23R34">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-abc3a368037af307c706513a73e167e0L81">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-abc3a368037af307c706513a73e167e0R81">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-abc3a368037af307c706513a73e167e0L65">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-abc3a368037af307c706513a73e167e0R65">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-f7a26006aeecdce676327451490982fcL58">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-f7a26006aeecdce676327451490982fcR60">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-f7a26006aeecdce676327451490982fcL62">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-f7a26006aeecdce676327451490982fcR64">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-f7a26006aeecdce676327451490982fcL35">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-f7a26006aeecdce676327451490982fcR37">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-f7a26006aeecdce676327451490982fcL38">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-f7a26006aeecdce676327451490982fcR40">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-77c78d81ca6336dd53ffe41e09680c23L34">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-77c78d81ca6336dd53ffe41e09680c23R34">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-ac9402e2d5817ffeafe68fa83803c156L51">msgLog</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-ac9402e2d5817ffeafe68fa83803c156R51">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-ac9402e2d5817ffeafe68fa83803c156L60">msgLog</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-ac9402e2d5817ffeafe68fa83803c156R60">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-ac9402e2d5817ffeafe68fa83803c156L69">msgLog</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-ac9402e2d5817ffeafe68fa83803c156R69">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-ac9402e2d5817ffeafe68fa83803c156L77">msgLog</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-ac9402e2d5817ffeafe68fa83803c156R77">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-ac9402e2d5817ffeafe68fa83803c156L85">msgLog</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-ac9402e2d5817ffeafe68fa83803c156R85">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-ac9402e2d5817ffeafe68fa83803c156L93">msgLog</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-ac9402e2d5817ffeafe68fa83803c156R93">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-a51d1ad7015fe936e1b4470ce2ecbe12L40">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-a51d1ad7015fe936e1b4470ce2ecbe12R40">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-a51d1ad7015fe936e1b4470ce2ecbe12L46">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-a51d1ad7015fe936e1b4470ce2ecbe12R46">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-a51d1ad7015fe936e1b4470ce2ecbe12L59">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-a51d1ad7015fe936e1b4470ce2ecbe12R59">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-a51d1ad7015fe936e1b4470ce2ecbe12L64">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-a51d1ad7015fe936e1b4470ce2ecbe12R64">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-a51d1ad7015fe936e1b4470ce2ecbe12L71">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-a51d1ad7015fe936e1b4470ce2ecbe12R71">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-a51d1ad7015fe936e1b4470ce2ecbe12L77">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-a51d1ad7015fe936e1b4470ce2ecbe12R77">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-a51d1ad7015fe936e1b4470ce2ecbe12L94">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-a51d1ad7015fe936e1b4470ce2ecbe12R94">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-a51d1ad7015fe936e1b4470ce2ecbe12L101">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-a51d1ad7015fe936e1b4470ce2ecbe12R101">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-a51d1ad7015fe936e1b4470ce2ecbe12L40">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-a51d1ad7015fe936e1b4470ce2ecbe12R40">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-832b40acf5ab20d9adc914bd37df84dbL67">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-832b40acf5ab20d9adc914bd37df84dbR68">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-fceff7e86cca28f4081dec72a67cff0dL45">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-fceff7e86cca28f4081dec72a67cff0dR45">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-c017d78beb3455c281f1b0aa6818d526L220">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-c017d78beb3455c281f1b0aa6818d526R220">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-c017d78beb3455c281f1b0aa6818d526L259">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-c017d78beb3455c281f1b0aa6818d526R259">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-c017d78beb3455c281f1b0aa6818d526L543">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-c017d78beb3455c281f1b0aa6818d526R543">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-c017d78beb3455c281f1b0aa6818d526L541">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-c017d78beb3455c281f1b0aa6818d526R541">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-c017d78beb3455c281f1b0aa6818d526L686">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-c017d78beb3455c281f1b0aa6818d526R686">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-c017d78beb3455c281f1b0aa6818d526L693">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-c017d78beb3455c281f1b0aa6818d526R693">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-c017d78beb3455c281f1b0aa6818d526L777">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-c017d78beb3455c281f1b0aa6818d526R777">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-c017d78beb3455c281f1b0aa6818d526L789">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-c017d78beb3455c281f1b0aa6818d526R789">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-c017d78beb3455c281f1b0aa6818d526L171">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-c017d78beb3455c281f1b0aa6818d526R171">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-9c388a89bd529170acae9ec05da953d2L185">log</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-9c388a89bd529170acae9ec05da953d2R181">bulkLog</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-10698c598174c7c4021e094395d92971L119">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-10698c598174c7c4021e094395d92971R119">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-10698c598174c7c4021e094395d92971L205">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-10698c598174c7c4021e094395d92971R205">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-10698c598174c7c4021e094395d92971L209">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-10698c598174c7c4021e094395d92971R209">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-10698c598174c7c4021e094395d92971L215">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-10698c598174c7c4021e094395d92971R215">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-10698c598174c7c4021e094395d92971L98">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-10698c598174c7c4021e094395d92971R96">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-283733e000279caaadd06ec04a67c07aL80">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-283733e000279caaadd06ec04a67c07aR80">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-283733e000279caaadd06ec04a67c07aL90">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-283733e000279caaadd06ec04a67c07aR90">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-283733e000279caaadd06ec04a67c07aL136">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-283733e000279caaadd06ec04a67c07aR136">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-283733e000279caaadd06ec04a67c07aL59">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-283733e000279caaadd06ec04a67c07aR59">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-fceff7e86cca28f4081dec72a67cff0dL56">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-fceff7e86cca28f4081dec72a67cff0dR56">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-fceff7e86cca28f4081dec72a67cff0dL45">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-fceff7e86cca28f4081dec72a67cff0dR45">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-0064b210ca65da84f88fc2f73e2241b9L53">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-0064b210ca65da84f88fc2f73e2241b9R46">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-0064b210ca65da84f88fc2f73e2241b9L35">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-0064b210ca65da84f88fc2f73e2241b9R32">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-b17d83b24df9d9044e0224b8e40dae54L30">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-b17d83b24df9d9044e0224b8e40dae54R30">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-2f49382d050dbfdbc738db0e672371a6L117">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-2f49382d050dbfdbc738db0e672371a6R118">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-2f49382d050dbfdbc738db0e672371a6L45">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-2f49382d050dbfdbc738db0e672371a6R46">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-0064b210ca65da84f88fc2f73e2241b9L35">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-0064b210ca65da84f88fc2f73e2241b9R32">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-f7a26006aeecdce676327451490982fcL35">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-f7a26006aeecdce676327451490982fcR37">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-f7a26006aeecdce676327451490982fcL38">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-f7a26006aeecdce676327451490982fcR40">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-b17d83b24df9d9044e0224b8e40dae54L30">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-b17d83b24df9d9044e0224b8e40dae54R30">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-fd054fb93890e5f4ed41ba40da5a21d1L93">messagesLog</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-fd054fb93890e5f4ed41ba40da5a21d1R93">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-91d93a548adb6121cf267d881b1cb4a9L48">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-91d93a548adb6121cf267d881b1cb4a9R48">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-91d93a548adb6121cf267d881b1cb4a9L64">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-91d93a548adb6121cf267d881b1cb4a9R64">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-91d93a548adb6121cf267d881b1cb4a9L67">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-91d93a548adb6121cf267d881b1cb4a9R67">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-91d93a548adb6121cf267d881b1cb4a9L39">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-91d93a548adb6121cf267d881b1cb4a9R39">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-91d93a548adb6121cf267d881b1cb4a9L35">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-91d93a548adb6121cf267d881b1cb4a9R35">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-1ef68af8ce2bb1d57821b989eaa3b221L47">stringLogger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-1ef68af8ce2bb1d57821b989eaa3b221R47">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-1ef68af8ce2bb1d57821b989eaa3b221L51">stringLogger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-1ef68af8ce2bb1d57821b989eaa3b221R51">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-1ef68af8ce2bb1d57821b989eaa3b221L36">stringLogger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-1ef68af8ce2bb1d57821b989eaa3b221R36">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-9c388a89bd529170acae9ec05da953d2L272">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-9c388a89bd529170acae9ec05da953d2R267">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-7bfc419a311d0de911a2b4dc3bd19f9fL77">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-7bfc419a311d0de911a2b4dc3bd19f9fR77">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-4cf8a26a46848a93dd36f704dee4ce28L36">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-4cf8a26a46848a93dd36f704dee4ce28R35">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-d2276dee93b70021737f9e478cc14eabL68">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-d2276dee93b70021737f9e478cc14eabR68">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-d2276dee93b70021737f9e478cc14eabL83">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-d2276dee93b70021737f9e478cc14eabR83">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-d2276dee93b70021737f9e478cc14eabL94">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-d2276dee93b70021737f9e478cc14eabR94">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-d2276dee93b70021737f9e478cc14eabL119">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-d2276dee93b70021737f9e478cc14eabR119">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-d2276dee93b70021737f9e478cc14eabL50">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-d2276dee93b70021737f9e478cc14eabR50">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-6e0be9a78091c182da80d94029b56598L69">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-6e0be9a78091c182da80d94029b56598R69">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-6e0be9a78091c182da80d94029b56598L82">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-6e0be9a78091c182da80d94029b56598R81">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-1f867b6a8a7fc19385722cc40205dd32L86">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-1f867b6a8a7fc19385722cc40205dd32R87">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-ef7ca4a532de15930d9ef2730a3d5584L176">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-ef7ca4a532de15930d9ef2730a3d5584R179">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-ef7ca4a532de15930d9ef2730a3d5584L248">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-ef7ca4a532de15930d9ef2730a3d5584R247">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-ef7ca4a532de15930d9ef2730a3d5584L365">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-ef7ca4a532de15930d9ef2730a3d5584R363">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-14f2988012da70eb74cdd6a92935016fL93">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-14f2988012da70eb74cdd6a92935016fR93">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-14f2988012da70eb74cdd6a92935016fL52">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-14f2988012da70eb74cdd6a92935016fR52">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-e0218c128b7995e02e2b0b94c84ba1a2L131">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-e0218c128b7995e02e2b0b94c84ba1a2R103">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-e0218c128b7995e02e2b0b94c84ba1a2L188">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-e0218c128b7995e02e2b0b94c84ba1a2R160">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-e0218c128b7995e02e2b0b94c84ba1a2L197">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-e0218c128b7995e02e2b0b94c84ba1a2R169">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-e0218c128b7995e02e2b0b94c84ba1a2L202">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-e0218c128b7995e02e2b0b94c84ba1a2R174">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-e0218c128b7995e02e2b0b94c84ba1a2L85">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-e0218c128b7995e02e2b0b94c84ba1a2R74">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-bd1d1286a45dcf6fe4fd6433c6116115L66">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-bd1d1286a45dcf6fe4fd6433c6116115R66">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-bd1d1286a45dcf6fe4fd6433c6116115L46">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-bd1d1286a45dcf6fe4fd6433c6116115R46">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-1f867b6a8a7fc19385722cc40205dd32L80">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-1f867b6a8a7fc19385722cc40205dd32R81">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-1f867b6a8a7fc19385722cc40205dd32L105">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-1f867b6a8a7fc19385722cc40205dd32R106">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-1f867b6a8a7fc19385722cc40205dd32L117">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-1f867b6a8a7fc19385722cc40205dd32R118">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-1f867b6a8a7fc19385722cc40205dd32L192">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-1f867b6a8a7fc19385722cc40205dd32R193">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-1f867b6a8a7fc19385722cc40205dd32L86">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-1f867b6a8a7fc19385722cc40205dd32R87">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-1f867b6a8a7fc19385722cc40205dd32L238">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-1f867b6a8a7fc19385722cc40205dd32R239">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-aeec498ca243d427a672486b7eef99baL330">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-aeec498ca243d427a672486b7eef99baR330">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-aeec498ca243d427a672486b7eef99baL148">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-aeec498ca243d427a672486b7eef99baR148">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-aeec498ca243d427a672486b7eef99baL149">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-aeec498ca243d427a672486b7eef99baR149">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-a8adb3982912cdf1841ffecc8f5a678aL388">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-a8adb3982912cdf1841ffecc8f5a678aR387">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-a8adb3982912cdf1841ffecc8f5a678aL389">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-a8adb3982912cdf1841ffecc8f5a678aR388">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-49e171e3cc09ea3f121639456c5479e8L46">messagesLog</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-49e171e3cc09ea3f121639456c5479e8R47">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-49e171e3cc09ea3f121639456c5479e8L39">messagesLog</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-49e171e3cc09ea3f121639456c5479e8R40">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-85bedff094822470871f63e97cc5ea5dL47">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-85bedff094822470871f63e97cc5ea5dR48">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cL51">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cR51">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cL52">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cR52">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cL55">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cR55">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cL58">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cR58">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cL61">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cR61">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bL55">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bR53">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bL79">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bR77">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bL83">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bR81">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bL87">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bR85">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bL105">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bR103">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bL114">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bR112">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bL126">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bR124">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-ad0ecb34443410d32cc3f3f85779f5c2L100">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-ad0ecb34443410d32cc3f3f85779f5c2R100">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cL35">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cR35">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cL36">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cR36">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cL39">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cR39">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cL42">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cR42">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cL45">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cR45">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-3983a4a6a5909db767db781ca7ee574bL293">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-3983a4a6a5909db767db781ca7ee574bR293">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-064a24f02e7e6d3659f7c62ef77fa199L115">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-064a24f02e7e6d3659f7c62ef77fa199R115">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-064a24f02e7e6d3659f7c62ef77fa199L130">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-064a24f02e7e6d3659f7c62ef77fa199R130">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-064a24f02e7e6d3659f7c62ef77fa199L62">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-064a24f02e7e6d3659f7c62ef77fa199R62">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bL250">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bR248">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bL265">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bR263">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-65dbc5885a7652ee8d09e00d2d6e6c6cL115">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-65dbc5885a7652ee8d09e00d2d6e6c6cR112">messagesLog</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-65dbc5885a7652ee8d09e00d2d6e6c6cL121">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-65dbc5885a7652ee8d09e00d2d6e6c6cR118">messagesLog</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-65dbc5885a7652ee8d09e00d2d6e6c6cL167">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-65dbc5885a7652ee8d09e00d2d6e6c6cR164">messagesLog</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-65dbc5885a7652ee8d09e00d2d6e6c6cL198">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-65dbc5885a7652ee8d09e00d2d6e6c6cR195">messagesLog</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-65dbc5885a7652ee8d09e00d2d6e6c6cL77">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-65dbc5885a7652ee8d09e00d2d6e6c6cR74">messagesLog</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-1f867b6a8a7fc19385722cc40205dd32L238">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-1f867b6a8a7fc19385722cc40205dd32R239">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-3983a4a6a5909db767db781ca7ee574bL74">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-3983a4a6a5909db767db781ca7ee574bR74">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-3983a4a6a5909db767db781ca7ee574bL54">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-3983a4a6a5909db767db781ca7ee574bR54">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-74373e30b20392682b997a4316bc37f3L115">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-74373e30b20392682b997a4316bc37f3R115">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-3f0ccda1bc0f4f20f81e3ce0139f3543L121">loggerMock</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-3f0ccda1bc0f4f20f81e3ce0139f3543R121">logMock</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-3f0ccda1bc0f4f20f81e3ce0139f3543L150">loggerMock</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-3f0ccda1bc0f4f20f81e3ce0139f3543R150">logMock</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-3f0ccda1bc0f4f20f81e3ce0139f3543L120">loggerMock</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-3f0ccda1bc0f4f20f81e3ce0139f3543R120">logMock</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-3983a4a6a5909db767db781ca7ee574bL336">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-3983a4a6a5909db767db781ca7ee574bR336">log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-3983a4a6a5909db767db781ca7ee574bL293">logger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-3983a4a6a5909db767db781ca7ee574bR293">log</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('MthdInvcArgsUpdate');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                MthdInvcArgsUpdate</i></a></li>
+                            <ul id="MthdInvcArgsUpdate" , style="display: none;">
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-09eae1221ff2b9912cc9a0158427fff2L116">info</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-09eae1221ff2b9912cc9a0158427fff2R118">info</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-09eae1221ff2b9912cc9a0158427fff2L150">info</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-09eae1221ff2b9912cc9a0158427fff2R151">info</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-06703941db92aeaa48c9f2cb51cc94e5L138">warn</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-06703941db92aeaa48c9f2cb51cc94e5R138">warn</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-336dd4a5b65e69966453d91dd6fccbc8L256">debug</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-336dd4a5b65e69966453d91dd6fccbc8R253">debug</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-336dd4a5b65e69966453d91dd6fccbc8L274">debug</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-336dd4a5b65e69966453d91dd6fccbc8R271">debug</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-336dd4a5b65e69966453d91dd6fccbc8L502">debug</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-336dd4a5b65e69966453d91dd6fccbc8R499">debug</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-336dd4a5b65e69966453d91dd6fccbc8L568">debug</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-336dd4a5b65e69966453d91dd6fccbc8R561">debug</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-8829f97efa846ecbdf327835352c7880L213">error</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-8829f97efa846ecbdf327835352c7880R212">error</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('MthdRename');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                MthdRename</i></a></li>
+                            <ul id="MthdRename" , style="display: none;">
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-4f50fa7d8a68e5134528a3e52591646aL500">logMessage</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-4f50fa7d8a68e5134528a3e52591646aR494">error</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-4f50fa7d8a68e5134528a3e52591646aL518">logMessage</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-4f50fa7d8a68e5134528a3e52591646aR512">error</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-f537b692181f76cbd289e24dd4a09794L234">logMessage</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-f537b692181f76cbd289e24dd4a09794R237">info</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-f537b692181f76cbd289e24dd4a09794L888">logMessage</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-f537b692181f76cbd289e24dd4a09794R891">info</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-4edb546501ba81140d0820392b805225L71">logMessage</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-4edb546501ba81140d0820392b805225R71">error</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bL55">getMessagesLog</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bR53">getInternalLog</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-696bc56aefc54deb3b5b4a3391f0f292L220">logMessage</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-696bc56aefc54deb3b5b4a3391f0f292R220">error</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-696bc56aefc54deb3b5b4a3391f0f292L230">logMessage</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-696bc56aefc54deb3b5b4a3391f0f292R230">info</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-696bc56aefc54deb3b5b4a3391f0f292L236">logMessage</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-696bc56aefc54deb3b5b4a3391f0f292R236">info</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-696bc56aefc54deb3b5b4a3391f0f292L281">logMessage</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-696bc56aefc54deb3b5b4a3391f0f292R281">info</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-696bc56aefc54deb3b5b4a3391f0f292L421">logMessage</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-696bc56aefc54deb3b5b4a3391f0f292R421">warn</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-696bc56aefc54deb3b5b4a3391f0f292L567">logMessage</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-696bc56aefc54deb3b5b4a3391f0f292R567">warn</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-7d5b7ded53011ea1f638800712985f53L201">logMessage</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-7d5b7ded53011ea1f638800712985f53R201">info</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fd737c728b4766f4bed4257af642e087L572">logMessage</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fd737c728b4766f4bed4257af642e087R571">info</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-c6d402109d1e8a382b989290c6d4ab02L276">logMessage</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-c6d402109d1e8a382b989290c6d4ab02R276">error</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('AddRemoveMthdInvc');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                AddRemoveMthdInvc</i></a></li>
+                            <ul id="AddRemoveMthdInvc" , style="display: none;">
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-c017d78beb3455c281f1b0aa6818d526L171">logging.getMessagesLog(getClass())</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-c017d78beb3455c281f1b0aa6818d526R171">logProvider.getLog(getClass())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-10698c598174c7c4021e094395d92971L98">logging.getMessagesLog(getClass())</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-10698c598174c7c4021e094395d92971R96">logProvider.getLog(getClass())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-283733e000279caaadd06ec04a67c07aL59">logging.getMessagesLog(getClass())</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-283733e000279caaadd06ec04a67c07aR59">logProvider.getLog(getClass())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-f537b692181f76cbd289e24dd4a09794L214">this.storeDir</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-f537b692181f76cbd289e24dd4a09794R218">getClass()</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-2f49382d050dbfdbc738db0e672371a6L45">stringLogger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-2f49382d050dbfdbc738db0e672371a6R46">logProvider.getLog(getClass())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-af31f64d35f8926cc7c52a61578eb839L417">logging.getMessagesLog(getClass())</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/7034419fe3f51d6d0f17ee4e0dc5ae7feb879f30?diff=split#diff-af31f64d35f8926cc7c52a61578eb839R402">logService.getInternalLog(getClass())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-d2276dee93b70021737f9e478cc14eabL50">logging.getMessagesLog(getClass())</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-d2276dee93b70021737f9e478cc14eabR50">logProvider.getLog(getClass())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-0746e591e57d78323d608f00d74c1b97L53">graph.getDependencyResolver().resolveDependency(LogService.class).getMessagesLog(getClass())</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-0746e591e57d78323d608f00d74c1b97R53">graph.getDependencyResolver().resolveDependency(LogService.class).getInternalLog(getClass())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-082e8a10910e50eb3fc020fcaf094bf5L258">msgLog.logMessage(&quot;Failed to switch to master&quot;,e)</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-082e8a10910e50eb3fc020fcaf094bf5R257">msgLog.error(&quot;Failed to switch to master&quot;,e)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-082e8a10910e50eb3fc020fcaf094bf5L311">consoleLog.error(&quot;UNABLE TO START UP AS SLAVE: &quot; + e.getMessage())</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-082e8a10910e50eb3fc020fcaf094bf5R310">userLog.error(&quot;UNABLE TO START UP AS SLAVE: %s&quot;,e.getMessage())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-082e8a10910e50eb3fc020fcaf094bf5L311">msgLog.logMessage(&quot;Error while trying to switch to slave&quot;,t)</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-082e8a10910e50eb3fc020fcaf094bf5R310">msgLog.error(&quot;Error while trying to switch to slave&quot;,t)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-082e8a10910e50eb3fc020fcaf094bf5L311">msgLog.logMessage(&quot;Attempting to switch to slave in &quot; + wait.get() + &quot;s&quot;)</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-082e8a10910e50eb3fc020fcaf094bf5R310">msgLog.info(&quot;Attempting to switch to slave in %ds&quot;,wait.get())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-e0218c128b7995e02e2b0b94c84ba1a2L85">logging.getMessagesLog(NetworkMock.class)</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-e0218c128b7995e02e2b0b94c84ba1a2R74">logProvider.getLog(NetworkMock.class)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-bd1d1286a45dcf6fe4fd6433c6116115L46">logging.getMessagesLog(getClass())</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-bd1d1286a45dcf6fe4fd6433c6116115R46">logProvider.getLog(getClass())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-aeec498ca243d427a672486b7eef99baL148">logging.getMessagesLog(getClass())</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-aeec498ca243d427a672486b7eef99baR148">logProvider.getLog(getClass())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-a8adb3982912cdf1841ffecc8f5a678aL388">resolveDependency</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-a8adb3982912cdf1841ffecc8f5a678aR387">getInternalLog</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-49e171e3cc09ea3f121639456c5479e8L39">messagesLog</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-49e171e3cc09ea3f121639456c5479e8R40">logProvider.getLog(getClass())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-ad0ecb34443410d32cc3f3f85779f5c2L100">logging.getMessagesLog(getClass())</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-ad0ecb34443410d32cc3f3f85779f5c2R100">logProvider.getLog(getClass())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-064a24f02e7e6d3659f7c62ef77fa199L62">logging.getMessagesLog(getClass())</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-064a24f02e7e6d3659f7c62ef77fa199R62">logProvider.getLog(getClass())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-65dbc5885a7652ee8d09e00d2d6e6c6cL77">logger.getConsoleLog(getClass())</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-65dbc5885a7652ee8d09e00d2d6e6c6cR74">logService.getInternalLog(getClass())</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-3983a4a6a5909db767db781ca7ee574bL54">logging.getMessagesLog(getClass())</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-3983a4a6a5909db767db781ca7ee574bR54">logProvider.getLog(getClass())</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('CascadingTypeDifferent');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                CascadingTypeDifferent</i></a></li>
+                            <ul id="CascadingTypeDifferent" , style="display: none;">
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-0746e591e57d78323d608f00d74c1b97L53">Logging</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/1eec38fcf49799d9e8d21716406f75b748b968b8?diff=split#diff-0746e591e57d78323d608f00d74c1b97R53">LogService</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bL55">Logging</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bR53">LogService</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('CascadingType');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                CascadingType</i></a></li>
+                            <ul id="CascadingType" , style="display: none;">
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-a8adb3982912cdf1841ffecc8f5a678aL388">StringLogger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-a8adb3982912cdf1841ffecc8f5a678aR387">Log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cL51">StringLogger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cR51">Log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bL55">StringLogger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-fac5d186f8f8aef9c69cc89644e07f0bR53">Log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cL35">StringLogger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-783c961b88286a3af0e180678ef5921cR35">Log</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-3f0ccda1bc0f4f20f81e3ce0139f3543L120">StringLogger</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/bf17bc6df634e5ece7e6a77169027badc8c77f32?diff=split#diff-3f0ccda1bc0f4f20f81e3ce0139f3543R120">Log</a>
+                                </li>
+                                
+                            </ul>
+                            
+                        </ol>
+
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- initialize jQuery Library -->
+            <script type="text/javascript" src="../../js/jquery.js"></script>
+            <!-- Bootstrap jQuery -->
+            <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+            <!-- Style Switcher -->
+            <script type="text/javascript" src="../../js/style-switcher.js"></script>
+            <!-- Owl Carousel -->
+            <script type="text/javascript" src="../../js/owl.carousel.js"></script>
+            <!-- PrettyPhoto -->
+            <script type="text/javascript" src="../../js/jquery.prettyPhoto.js"></script>
+            <!-- Bxslider -->
+            <script type="text/javascript" src="../../js/jquery.flexslider.js"></script>
+            <!-- CD Hero slider -->
+            <script type="text/javascript" src="../../js/cd-hero.js"></script>
+            <!-- Isotope -->
+            <script type="text/javascript" src="../../js/isotope.js"></script>
+            <script type="text/javascript" src="../../js/ini.isotope.js"></script>
+            <!-- Wow Animation -->
+            <script type="text/javascript" src="../../js/wow.min.js"></script>
+            <!-- SmoothScroll -->
+            <script type="text/javascript" src="../../js/smoothscroll.js"></script>
+            <!-- Eeasing -->
+            <script type="text/javascript" src="../../js/jquery.easing.1.3.js"></script>
+            <!-- Counter -->
+            <script type="text/javascript" src="../../js/jquery.counterup.min.js"></script>
+            <!-- Waypoints -->
+            <script type="text/javascript" src="../../js/waypoints.min.js"></script>
+            <!-- Template custom -->
+            <script type="text/javascript" src="../../js/custom.js"></script>
+        </div>
+    </section>
+</div>
+</body>
+
+<script type="text/javascript">
+    <!--
+    function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        if (e.style.display == 'block')
+            e.style.display = 'none';
+        else
+            e.style.display = 'block';
+    }
+
+    //-->
+</script>
+</html>

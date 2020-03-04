@@ -1,0 +1,396 @@
+<!-- #######  YAY, I AM THE SOURCE EDITOR! #########-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>java.util.function.BiFunction to java.util.function.Function</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="icon" href="img/favicon/favicon-32x32.png" type="image/x-icon"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.png">
+
+    <!-- CSS
+    ================================================== -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <!-- Template styles-->
+    <link rel="stylesheet" href="../../css/style.css">
+    <!-- Responsive styles-->
+    <link rel="stylesheet" href="../../css/responsive.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="../../css/animate.css">
+    <!-- Prettyphoto -->
+    <link rel="stylesheet" href="../../css/prettyPhoto.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="../../css/owl.carousel.css">
+    <link rel="stylesheet" href="../../css/owl.theme.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="../../css/flexslider.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="../../css/cd-hero.css">
+    <!-- Style Swicther -->
+    <link id="style-switch" href="../../css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<div class="body-inner">
+    <header id="header" class="navbar-fixed-top header" role="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 heading">
+                    <!-- Logo start -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div><!--/ Logo end -->
+                    <nav class="collapse navbar-collapse clearfix" role="navigation">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="../../index.html"><p class="text-danger">Home</p></a></li>
+<!--                            <li><a href=..\speedment><p class="text-danger">Examples</p></a></li>-->
+                        </ul>
+                    </nav><!--/ Navigation end -->
+                </div><!--/ Row end -->
+            </div>
+        </div><!--/ Container end -->
+    </header><!--/ Header end -->
+
+
+    <section id="main-container">
+        <div class="container">
+
+            <!-- Company Profile -->
+            <div class="row">
+<!--                <div class="col-md-12 heading">-->
+                    <!--<span class="title-icon classic pull-left"><i class="fa fa-suitcase"></i></span>-->
+                    <h2 class="title classic">java.util.function.BiFunction to java.util.function.Function</h2>
+                    <!--<h2 class="title classic">URL: </h2>-->
+<!--                </div>-->
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h3>No. of Instances - 4</h3>
+                <h3>No. of Commits - 1</h3>
+                <h3>No. of Projects - {'speedment'}</h3>
+                <h3>Hierarchy/Composition: -</h3>
+                <h3>Primitive Info: -</h3>
+                <h3>NameSpace: Jdk -> Jdk</h3>
+                <h3>Mapping:</h3>
+            </div>
+            <div class="col-md-12 heading">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 heading">
+                        <ol>
+                            
+                            <li><a href="#" onclick="toggle_visibility('AddRemoveMthdInvc');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                AddRemoveMthdInvc</i></a></li>
+                            <ul id="AddRemoveMthdInvc" , style="display: none;">
+                                
+                                <li><a href="https://github.com/eclipse-vertx/vert.x/commit/b7adb0d6f9efd33f4914a60a4c3d0de981236eb0?diff=split#diff-9ff28fb39606c87bd9adde3cf8beba37L129">endpoint.pool.getConnection(new Waiter&lt;HttpClientConnection&gt;(client.getVertx().getOrCreateContext()){
+  @Override public void handleFailure(  ContextInternal ctx,  Throwable failure){
+    if (metrics != null) {
+      metrics.dequeueRequest(endpoint.metric,metric);
+    }
+    onFailure.accept(ctx,failure);
+  }
+  @Override public void handleConnection(  ContextInternal ctx,  HttpClientConnection conn){
+    if (metrics != null) {
+      metrics.dequeueRequest(endpoint.metric,metric);
+    }
+    boolean claimed=onSuccess.apply(ctx,conn);
+    if (!claimed) {
+      conn.recycle();
+    }
+  }
+}
+)</a> to <a
+                                        href="https://github.com/eclipse-vertx/vert.x/commit/b7adb0d6f9efd33f4914a60a4c3d0de981236eb0?diff=split#diff-9ff28fb39606c87bd9adde3cf8beba37R127">endpoint.pool.getConnection(client.getVertx().getOrCreateContext(),ar -&gt; {
+  if (ar.succeeded()) {
+    HttpClientConnection conn=ar.result();
+    if (metrics != null) {
+      metrics.dequeueRequest(endpoint.metric,metric);
+    }
+    boolean claimed=onSuccess.apply(conn);
+    if (!claimed) {
+      conn.recycle();
+    }
+  }
+ else {
+    if (metrics != null) {
+      metrics.dequeueRequest(endpoint.metric,metric);
+    }
+    onFailure.accept(ar.cause());
+  }
+}
+)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/atomix/atomix/commit/812adfce79451608614955e5542fa45198af59a9?diff=split#diff-5b1fe6f29438b400de42c5f1f601236dL115">resourceFactory.apply(member,cluster)</a> to <a
+                                        href="https://github.com/atomix/atomix/commit/812adfce79451608614955e5542fa45198af59a9?diff=split#diff-5b1fe6f29438b400de42c5f1f601236dR114">resourceFactory.apply(cluster)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/atomix/atomix/commit/812adfce79451608614955e5542fa45198af59a9?diff=split#diff-5b1fe6f29438b400de42c5f1f601236dL122">resourceFactory.apply(uri,cluster)</a> to <a
+                                        href="https://github.com/atomix/atomix/commit/812adfce79451608614955e5542fa45198af59a9?diff=split#diff-5b1fe6f29438b400de42c5f1f601236dR121">resourceFactory.apply(cluster)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/speedment/speedment/commit/a25320afabb4e1691441c334059a2dd6a430af77?diff=split#diff-b2eedecee2af39a0fa06ffdb02208d4aL318">streamer.apply(manager,e).map(fkEncoder::apply).collect(joining(&quot;,&quot;))</a> to <a
+                                        href="https://github.com/speedment/speedment/commit/a25320afabb4e1691441c334059a2dd6a430af77?diff=split#diff-b2eedecee2af39a0fa06ffdb02208d4aR309">streamer.apply(e).map(fkEncoder::apply).collect(joining(&quot;,&quot;))</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/speedment/speedment/commit/a25320afabb4e1691441c334059a2dd6a430af77?diff=split#diff-b2eedecee2af39a0fa06ffdb02208d4aL336">streamer.apply(manager,e).map(fkEncoder).collect(joining(&quot;,&quot;))</a> to <a
+                                        href="https://github.com/speedment/speedment/commit/a25320afabb4e1691441c334059a2dd6a430af77?diff=split#diff-b2eedecee2af39a0fa06ffdb02208d4aR327">streamer.apply(e).map(fkEncoder).collect(joining(&quot;,&quot;))</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL57">when(factory.apply(ch,true))</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R65">when(factory.apply(boltChannel))</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL80">when(factory.apply(ch,true))</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R91">when(factory.apply(boltChannel))</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL111">when(factory.apply(ch,true))</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R125">when(factory.apply(boltChannel))</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL139">when(factory.apply(ch,true))</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R156">when(factory.apply(boltChannel))</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL161">when(factory.apply(ch,true))</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R181">when(factory.apply(boltChannel))</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL184">when(factory.apply(ch,true))</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R207">when(factory.apply(boltChannel))</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL207">when(factory.apply(ch,true))</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R233">when(factory.apply(boltChannel))</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('MthdInvcArgsUpdate');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                MthdInvcArgsUpdate</i></a></li>
+                            <ul id="MthdInvcArgsUpdate" , style="display: none;">
+                                
+                                <li><a href="https://github.com/apache/pulsar/commit/df3f757abab219cfd3d84c655358f598f54c71a6?diff=split#diff-13d854fb800512b9fcffe5ca11f4f3c7L92">apply</a> to <a
+                                        href="https://github.com/apache/pulsar/commit/df3f757abab219cfd3d84c655358f598f54c71a6?diff=split#diff-13d854fb800512b9fcffe5ca11f4f3c7R86">apply</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('VarRename');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                VarRename</i></a></li>
+                            <ul id="VarRename" , style="display: none;">
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-31858d9e85dd33c8caa872961f9e884aL242">newVersions</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-31858d9e85dd33c8caa872961f9e884aR234">getProtocolHandlers</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL58">available</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R66">protocolHandlers</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL60">available</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R68">protocolHandlers</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL81">available</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R92">protocolHandlers</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL83">available</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R94">protocolHandlers</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL112">available</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R126">protocolHandlers</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL114">available</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R128">protocolHandlers</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL140">available</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R157">protocolHandlers</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL142">available</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R159">protocolHandlers</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL163">available</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R183">protocolHandlers</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL165">available</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R185">protocolHandlers</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL186">available</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R209">protocolHandlers</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL188">available</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R211">protocolHandlers</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL209">available</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R235">protocolHandlers</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL211">available</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R237">protocolHandlers</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('CascadingTypeDifferent');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                CascadingTypeDifferent</i></a></li>
+                            <ul id="CascadingTypeDifferent" , style="display: none;">
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-bff538122d0c8a458215e1436e55c8aeL203">ProtocolChooser</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-bff538122d0c8a458215e1436e55c8aeR207">BoltHandshakeProtocolHandler</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL60">ProtocolChooser</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R68">BoltHandshakeProtocolHandler</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL83">ProtocolChooser</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R94">BoltHandshakeProtocolHandler</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL114">ProtocolChooser</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R128">BoltHandshakeProtocolHandler</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL142">ProtocolChooser</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R159">BoltHandshakeProtocolHandler</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL165">ProtocolChooser</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R185">BoltHandshakeProtocolHandler</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL188">ProtocolChooser</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R211">BoltHandshakeProtocolHandler</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL211">ProtocolChooser</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R237">BoltHandshakeProtocolHandler</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <li><a href="#" onclick="toggle_visibility('CascadingType');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                CascadingType</i></a></li>
+                            <ul id="CascadingType" , style="display: none;">
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL163">BiFunction</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R183">Function</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL186">BiFunction</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R209">Function</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-7b83778746f470716bee2f32aaee413fL209">BiFunction</a> to <a
+                                        href="https://github.com/neo4j/neo4j/commit/c79c89249c00a9dd68b0622040ea539ef3476ef1?diff=split#diff-f1cb934e4c5cf372af1c4974fb10f2b0R235">Function</a>
+                                </li>
+                                
+                            </ul>
+                            
+                        </ol>
+
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- initialize jQuery Library -->
+            <script type="text/javascript" src="../../js/jquery.js"></script>
+            <!-- Bootstrap jQuery -->
+            <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+            <!-- Style Switcher -->
+            <script type="text/javascript" src="../../js/style-switcher.js"></script>
+            <!-- Owl Carousel -->
+            <script type="text/javascript" src="../../js/owl.carousel.js"></script>
+            <!-- PrettyPhoto -->
+            <script type="text/javascript" src="../../js/jquery.prettyPhoto.js"></script>
+            <!-- Bxslider -->
+            <script type="text/javascript" src="../../js/jquery.flexslider.js"></script>
+            <!-- CD Hero slider -->
+            <script type="text/javascript" src="../../js/cd-hero.js"></script>
+            <!-- Isotope -->
+            <script type="text/javascript" src="../../js/isotope.js"></script>
+            <script type="text/javascript" src="../../js/ini.isotope.js"></script>
+            <!-- Wow Animation -->
+            <script type="text/javascript" src="../../js/wow.min.js"></script>
+            <!-- SmoothScroll -->
+            <script type="text/javascript" src="../../js/smoothscroll.js"></script>
+            <!-- Eeasing -->
+            <script type="text/javascript" src="../../js/jquery.easing.1.3.js"></script>
+            <!-- Counter -->
+            <script type="text/javascript" src="../../js/jquery.counterup.min.js"></script>
+            <!-- Waypoints -->
+            <script type="text/javascript" src="../../js/waypoints.min.js"></script>
+            <!-- Template custom -->
+            <script type="text/javascript" src="../../js/custom.js"></script>
+        </div>
+    </section>
+</div>
+</body>
+
+<script type="text/javascript">
+    <!--
+    function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        if (e.style.display == 'block')
+            e.style.display = 'none';
+        else
+            e.style.display = 'block';
+    }
+
+    //-->
+</script>
+</html>

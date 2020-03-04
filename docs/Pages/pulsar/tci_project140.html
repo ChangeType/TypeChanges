@@ -1,0 +1,322 @@
+<!-- #######  YAY, I AM THE SOURCE EDITOR! #########-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>org.apache.pulsar.broker.lookup.LookupResult to java.util.Optional&lt;org.apache.pulsar.broker.lookup.LookupResult&gt;</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="icon" href="img/favicon/favicon-32x32.png" type="image/x-icon"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.png">
+
+    <!-- CSS
+    ================================================== -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <!-- Template styles-->
+    <link rel="stylesheet" href="../../css/style.css">
+    <!-- Responsive styles-->
+    <link rel="stylesheet" href="../../css/responsive.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="../../css/animate.css">
+    <!-- Prettyphoto -->
+    <link rel="stylesheet" href="../../css/prettyPhoto.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="../../css/owl.carousel.css">
+    <link rel="stylesheet" href="../../css/owl.theme.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="../../css/flexslider.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="../../css/cd-hero.css">
+    <!-- Style Swicther -->
+    <link id="style-switch" href="../../css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<div class="body-inner">
+    <header id="header" class="navbar-fixed-top header" role="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 heading">
+                    <!-- Logo start -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div><!--/ Logo end -->
+                    <nav class="collapse navbar-collapse clearfix" role="navigation">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="../../index.html"><p class="text-danger">Home</p></a></li>
+<!--                            <li><a href=..\pulsar><p class="text-danger">Examples</p></a></li>-->
+                        </ul>
+                    </nav><!--/ Navigation end -->
+                </div><!--/ Row end -->
+            </div>
+        </div><!--/ Container end -->
+    </header><!--/ Header end -->
+
+
+    <section id="main-container">
+        <div class="container">
+
+            <!-- Company Profile -->
+            <div class="row">
+<!--                <div class="col-md-12 heading">-->
+                    <!--<span class="title-icon classic pull-left"><i class="fa fa-suitcase"></i></span>-->
+                    <h2 class="title classic">org.apache.pulsar.broker.lookup.LookupResult to java.util.Optional&lt;org.apache.pulsar.broker.lookup.LookupResult&gt;</h2>
+                    <!--<h2 class="title classic">URL: </h2>-->
+<!--                </div>-->
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h3>No. of Instances - 5</h3>
+                <h3>No. of Commits - 1</h3>
+                <h3>No. of Projects - {'pulsar'}</h3>
+                <h3>Hierarchy/Composition: -</h3>
+                <h3>Primitive Info: -</h3>
+                <h3>NameSpace: Internal -> Jdk</h3>
+                <h3>Mapping:</h3>
+            </div>
+            <div class="col-md-12 heading">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 heading">
+                        <ol>
+                            
+                            <li><a href="#" onclick="toggle_visibility('AddRemoveMthdInvc');"><i class="fa fa-plus"
+                                                                                                aria-hidden="true">
+                                AddRemoveMthdInvc</i></a></li>
+                            <ul id="AddRemoveMthdInvc" , style="display: none;">
+                                
+                                <li><a href="https://github.com/apache/pulsar/commit/db85e87e255022a43ab2031b34605b0c64ebaa47?diff=split#diff-8107645a1d51ea960abe2bff313b30d5L285">ownershipCache.getOwnerAsync(bundle).thenAccept(nsData -&gt; {
+  if (!nsData.isPresent()) {
+    if (readOnly) {
+      future.completeExceptionally(new IllegalStateException(String.format(&quot;Can&#x27;t find owner of ServiceUnit: %s&quot;,bundle)));
+    }
+ else {
+      pulsar.getExecutor().execute(() -&gt; {
+        searchForCandidateBroker(bundle,future,authoritative);
+      }
+);
+    }
+  }
+ else   if (nsData.get().isDisabled()) {
+    future.completeExceptionally(new IllegalStateException(String.format(&quot;Namespace bundle %s is being unloaded&quot;,bundle)));
+  }
+ else {
+    if (LOG.isDebugEnabled()) {
+      LOG.debug(&quot;Namespace bundle {} already owned by {} &quot;,bundle,nsData);
+    }
+    future.complete(new LookupResult(nsData.get()));
+  }
+}
+)</a> to <a
+                                        href="https://github.com/apache/pulsar/commit/db85e87e255022a43ab2031b34605b0c64ebaa47?diff=split#diff-8107645a1d51ea960abe2bff313b30d5R289">ownershipCache.getOwnerAsync(bundle).thenAccept(nsData -&gt; {
+  if (!nsData.isPresent()) {
+    if (readOnly) {
+      future.complete(Optional.empty());
+    }
+ else {
+      pulsar.getExecutor().execute(() -&gt; {
+        searchForCandidateBroker(bundle,future,authoritative);
+      }
+);
+    }
+  }
+ else   if (nsData.get().isDisabled()) {
+    future.completeExceptionally(new IllegalStateException(String.format(&quot;Namespace bundle %s is being unloaded&quot;,bundle)));
+  }
+ else {
+    if (LOG.isDebugEnabled()) {
+      LOG.debug(&quot;Namespace bundle {} already owned by {} &quot;,bundle,nsData);
+    }
+    future.complete(Optional.of(new LookupResult(nsData.get())));
+  }
+}
+)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/pulsar/commit/db85e87e255022a43ab2031b34605b0c64ebaa47?diff=split#diff-3c65b445aa22789ea79feee52efa61f9L106">lookupFuture.thenAccept(result -&gt; {
+  if (result == null) {
+    log.warn(&quot;No broker was found available for topic {}&quot;,topic);
+    completeLookupResponseExceptionally(asyncResponse,new WebApplicationException(Response.Status.SERVICE_UNAVAILABLE));
+    return;
+  }
+  if (result.isRedirect()) {
+    boolean newAuthoritative=this.isLeaderBroker();
+    URI redirect;
+    try {
+      String redirectUrl=isRequestHttps() ? result.getLookupData().getHttpUrlTls() : result.getLookupData().getHttpUrl();
+      redirect=new URI(String.format(&quot;%s%s%s?authoritative=%s&quot;,redirectUrl,&quot;/lookup/v2/destination/&quot;,topic.getLookupName(),newAuthoritative));
+    }
+ catch (    URISyntaxException e) {
+      log.error(&quot;Error in preparing redirect url for {}: {}&quot;,topic,e.getMessage(),e);
+      completeLookupResponseExceptionally(asyncResponse,e);
+      return;
+    }
+    if (log.isDebugEnabled()) {
+      log.debug(&quot;Redirect lookup for topic {} to {}&quot;,topic,redirect);
+    }
+    completeLookupResponseExceptionally(asyncResponse,new WebApplicationException(Response.temporaryRedirect(redirect).build()));
+  }
+ else {
+    if (log.isDebugEnabled()) {
+      log.debug(&quot;Lookup succeeded for topic {} -- broker: {}&quot;,topic,result.getLookupData());
+    }
+    completeLookupResponseSuccessfully(asyncResponse,result.getLookupData());
+  }
+}
+)</a> to <a
+                                        href="https://github.com/apache/pulsar/commit/db85e87e255022a43ab2031b34605b0c64ebaa47?diff=split#diff-3c65b445aa22789ea79feee52efa61f9R105">lookupFuture.thenAccept(optionalResult -&gt; {
+  if (optionalResult == null || !optionalResult.isPresent()) {
+    log.warn(&quot;No broker was found available for topic {}&quot;,topic);
+    completeLookupResponseExceptionally(asyncResponse,new WebApplicationException(Response.Status.SERVICE_UNAVAILABLE));
+    return;
+  }
+  LookupResult result=optionalResult.get();
+  if (result.isRedirect()) {
+    boolean newAuthoritative=this.isLeaderBroker();
+    URI redirect;
+    try {
+      String redirectUrl=isRequestHttps() ? result.getLookupData().getHttpUrlTls() : result.getLookupData().getHttpUrl();
+      redirect=new URI(String.format(&quot;%s%s%s?authoritative=%s&quot;,redirectUrl,&quot;/lookup/v2/destination/&quot;,topic.getLookupName(),newAuthoritative));
+    }
+ catch (    URISyntaxException e) {
+      log.error(&quot;Error in preparing redirect url for {}: {}&quot;,topic,e.getMessage(),e);
+      completeLookupResponseExceptionally(asyncResponse,e);
+      return;
+    }
+    if (log.isDebugEnabled()) {
+      log.debug(&quot;Redirect lookup for topic {} to {}&quot;,topic,redirect);
+    }
+    completeLookupResponseExceptionally(asyncResponse,new WebApplicationException(Response.temporaryRedirect(redirect).build()));
+  }
+ else {
+    if (log.isDebugEnabled()) {
+      log.debug(&quot;Lookup succeeded for topic {} -- broker: {}&quot;,topic,result.getLookupData());
+    }
+    completeLookupResponseSuccessfully(asyncResponse,result.getLookupData());
+  }
+}
+)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/pulsar/commit/db85e87e255022a43ab2031b34605b0c64ebaa47?diff=split#diff-8107645a1d51ea960abe2bff313b30d5L355">ownershipCache.tryAcquiringOwnership(bundle).thenAccept(ownerInfo -&gt; {
+  if (ownerInfo.isDisabled()) {
+    if (LOG.isDebugEnabled()) {
+      LOG.debug(&quot;Namespace bundle {} is currently being unloaded&quot;,bundle);
+    }
+    lookupFuture.completeExceptionally(new IllegalStateException(String.format(&quot;Namespace bundle %s is currently being unloaded&quot;,bundle)));
+  }
+ else {
+    pulsar.loadNamespaceDestinations(bundle);
+    lookupFuture.complete(new LookupResult(ownerInfo));
+  }
+}
+)</a> to <a
+                                        href="https://github.com/apache/pulsar/commit/db85e87e255022a43ab2031b34605b0c64ebaa47?diff=split#diff-8107645a1d51ea960abe2bff313b30d5R358">ownershipCache.tryAcquiringOwnership(bundle).thenAccept(ownerInfo -&gt; {
+  if (ownerInfo.isDisabled()) {
+    if (LOG.isDebugEnabled()) {
+      LOG.debug(&quot;Namespace bundle {} is currently being unloaded&quot;,bundle);
+    }
+    lookupFuture.completeExceptionally(new IllegalStateException(String.format(&quot;Namespace bundle %s is currently being unloaded&quot;,bundle)));
+  }
+ else {
+    pulsar.loadNamespaceDestinations(bundle);
+    lookupFuture.complete(Optional.of(new LookupResult(ownerInfo)));
+  }
+}
+)</a>
+                                </li>
+                                
+                                <li><a href="https://github.com/apache/pulsar/commit/db85e87e255022a43ab2031b34605b0c64ebaa47?diff=split#diff-8107645a1d51ea960abe2bff313b30d5L386">createLookupResult(candidateBroker).thenAccept(lookupResult -&gt; lookupFuture.complete(lookupResult))</a> to <a
+                                        href="https://github.com/apache/pulsar/commit/db85e87e255022a43ab2031b34605b0c64ebaa47?diff=split#diff-8107645a1d51ea960abe2bff313b30d5R389">createLookupResult(candidateBroker).thenAccept(lookupResult -&gt; lookupFuture.complete(Optional.of(lookupResult)))</a>
+                                </li>
+                                
+                            </ul>
+                            
+                        </ol>
+
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- initialize jQuery Library -->
+            <script type="text/javascript" src="../../js/jquery.js"></script>
+            <!-- Bootstrap jQuery -->
+            <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+            <!-- Style Switcher -->
+            <script type="text/javascript" src="../../js/style-switcher.js"></script>
+            <!-- Owl Carousel -->
+            <script type="text/javascript" src="../../js/owl.carousel.js"></script>
+            <!-- PrettyPhoto -->
+            <script type="text/javascript" src="../../js/jquery.prettyPhoto.js"></script>
+            <!-- Bxslider -->
+            <script type="text/javascript" src="../../js/jquery.flexslider.js"></script>
+            <!-- CD Hero slider -->
+            <script type="text/javascript" src="../../js/cd-hero.js"></script>
+            <!-- Isotope -->
+            <script type="text/javascript" src="../../js/isotope.js"></script>
+            <script type="text/javascript" src="../../js/ini.isotope.js"></script>
+            <!-- Wow Animation -->
+            <script type="text/javascript" src="../../js/wow.min.js"></script>
+            <!-- SmoothScroll -->
+            <script type="text/javascript" src="../../js/smoothscroll.js"></script>
+            <!-- Eeasing -->
+            <script type="text/javascript" src="../../js/jquery.easing.1.3.js"></script>
+            <!-- Counter -->
+            <script type="text/javascript" src="../../js/jquery.counterup.min.js"></script>
+            <!-- Waypoints -->
+            <script type="text/javascript" src="../../js/waypoints.min.js"></script>
+            <!-- Template custom -->
+            <script type="text/javascript" src="../../js/custom.js"></script>
+        </div>
+    </section>
+</div>
+</body>
+
+<script type="text/javascript">
+    <!--
+    function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        if (e.style.display == 'block')
+            e.style.display = 'none';
+        else
+            e.style.display = 'block';
+    }
+
+    //-->
+</script>
+</html>

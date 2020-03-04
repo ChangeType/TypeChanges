@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>TypeChanges-Projects</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="icon" href="img/favicon/favicon-32x32.png" type="image/x-icon" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.png">
+
+    <!-- CSS
+    ================================================== -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Template styles-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Responsive styles-->
+    <link rel="stylesheet" href="../css/responsive.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="../css/animate.css">
+    <!-- Prettyphoto -->
+    <link rel="stylesheet" href="../css/prettyPhoto.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="../css/owl.carousel.css">
+    <link rel="stylesheet" href="../css/owl.theme.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="../css/flexslider.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="../css/cd-hero.css">
+    <!-- Style Swicther -->
+    <link id="style-switch" href="../css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<div class="body-inner">
+    <!-- Header start -->
+    <header id="header">
+        <div class="container">
+            <div>
+                <!-- Logo start -->
+                <nav class="collapse navbar-collapse clearfix" role="navigation">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="../../index.html"><p>Home</p></a></li>
+<!--                        <li><a href=failsafe><p>Projects</p></a></li>-->
+                        <!--<li><a href="examples1.html"><p class="text-danger">Examples</p></a></li>-->
+                    </ul>
+                </nav><!--/ Navigation end -->
+            </div><!--/ Row end -->
+        </div><!--/ Container end -->
+    </header><!--/ Header end -->
+
+
+    <section id="main-container">
+        <div>
+
+            <!-- Company Profile -->
+            <div>
+                <div>
+                    <span><i></i></span>
+                    <h2>Type Changes: </h2>
+                </div>
+            </div><!-- Title row end -->
+            <table class="fixed" , id=AllTypeChanges>
+                <thead>
+                <tr>
+                    <th scope="col">Type Before</th>
+                    <th scope="col">Type After</th>
+                    <th scope="col">No. of Instances</th>
+                    <th scope="col">No. of Commits</th>
+                    <th scope="col">No. of Projects</th>
+                    <th scope="col">Hierarchy Relation</th>
+                    <th scope="col">Primitive Info</th>
+                    <th scope="col">Namespace</th>
+                </tr>
+                </thead>
+                
+                <tr>
+                    <td>java.util.concurrent.Callable</td>
+                    <td>net.jodah.recurrent.RetryableCallable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project0.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.Scheduler</td>
+                    <td>java.util.concurrent.ScheduledExecutorService</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project1.html">15</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.Testing.RecordingRunnable</td>
+                    <td>net.jodah.recurrent.Testing.RecordingCallable&lt;?&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project2.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.RetryableCallable</td>
+                    <td>java.util.concurrent.Callable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project3.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.Testing.RecordingRunnable</td>
+                    <td>net.jodah.recurrent.Testing.RecordingCallable&lt;java.lang.String&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project4.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.ListenableFuture</td>
+                    <td>net.jodah.recurrent.RecurrentFuture</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project5.html">11</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>SIBLING</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.ScheduledExecutorService</td>
+                    <td>java.util.concurrent.ExecutorService</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project6.html">4</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.event.CompletionListener</td>
+                    <td>net.jodah.recurrent.RecurrentFuture</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project7.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>void</td>
+                    <td>java.lang.Throwable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project8.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.Runnable</td>
+                    <td>net.jodah.recurrent.Testing.ThrowableRunnable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project9.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>? extendsjava.util.concurrent.CompletableFuture&lt;T&gt;</td>
+                    <td>java.util.concurrent.CompletableFuture&lt;T&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project10.html">3</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>?</td>
+                    <td>java.lang.reflect.AccessibleObject</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project11.html">4</a></td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>TypeVariable -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.Throwable</td>
+                    <td>? extendsjava.lang.Throwable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project12.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.ExecutorService</td>
+                    <td>net.jodah.recurrent.Scheduler</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project13.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.ScheduledExecutorService</td>
+                    <td>net.jodah.recurrent.Scheduler</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project14.html">3</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.Invocation</td>
+                    <td>net.jodah.recurrent.RetryStats</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project15.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>void</td>
+                    <td>boolean</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project16.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.Scheduler</td>
+                    <td>long</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project17.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.RetryStats</td>
+                    <td>net.jodah.recurrent.Invocation</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project18.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.AsyncCallable&lt;java.lang.reflect.AccessibleObject&gt;</td>
+                    <td>long</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project19.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.Invocation</td>
+                    <td>net.jodah.recurrent.AsyncInvocation</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project20.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.RecurrentFuture&lt;java.lang.reflect.AccessibleObject&gt;</td>
+                    <td>net.jodah.recurrent.RetryPolicy</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project21.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.event.SuccessListener</td>
+                    <td>net.jodah.recurrent.AsyncListeners.AsyncResultListener</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project22.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.event.CompletionListener</td>
+                    <td>net.jodah.recurrent.event.ContextualResultListener</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project23.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.event.FailureListener</td>
+                    <td>net.jodah.recurrent.AsyncListeners.AsyncResultListener&lt;T&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project24.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.event.FailureListener</td>
+                    <td>net.jodah.recurrent.event.ResultListener&lt;java.lang.Throwable, T&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project25.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.Runnable</td>
+                    <td>net.jodah.recurrent.ContextualRunnable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project26.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.Class</td>
+                    <td>java.util.List</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project27.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.ContextualRunnable</td>
+                    <td>java.lang.Runnable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project28.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.AsyncListeners</td>
+                    <td>net.jodah.recurrent.Listeners</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project29.html">5</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.Runnable</td>
+                    <td>net.jodah.recurrent.CheckedRunnable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project30.html">7</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.RuntimeException</td>
+                    <td>net.jodah.recurrent.RecurrentException</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project31.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.ContextualCallable</td>
+                    <td>net.jodah.recurrent.AsyncContextualCallable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project32.html">9</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.Runnable</td>
+                    <td>net.jodah.recurrent.AsyncContextualRunnable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project33.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.ContextualRunnable</td>
+                    <td>net.jodah.recurrent.AsyncContextualRunnable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project34.html">4</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.AsyncContextualCallable</td>
+                    <td>net.jodah.recurrent.ContextualCallable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project35.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.Callable</td>
+                    <td>net.jodah.recurrent.ContextualCallable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project36.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.AsyncCallable</td>
+                    <td>net.jodah.recurrent.AsyncContextualCallable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project37.html">4</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>SIBLING</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.AsyncContextualCallable</td>
+                    <td>java.util.concurrent.Callable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project38.html">5</a></td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>long</td>
+                    <td>net.jodah.failsafe.util.Duration</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project39.html">3</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>Composition</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.Class&lt;? extendsjava.lang.IllegalAccessException&gt;</td>
+                    <td>java.lang.IllegalAccessException</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project40.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>SIBLING</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.Testing.ThrowableRunnable</td>
+                    <td>net.jodah.failsafe.function.CheckedRunnable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project41.html">5</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.AsyncContextualCallable</td>
+                    <td>net.jodah.failsafe.Callables.AsyncCallableWrapper</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project42.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>SIBLING</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.recurrent.SyncRecurrent</td>
+                    <td>net.jodah.failsafe.SyncFailsafe</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project43.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.util.concurrent.Scheduler</td>
+                    <td>java.util.concurrent.CompletableFuture&lt;T&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project44.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.Listeners</td>
+                    <td>net.jodah.failsafe.ListenerBindings</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project45.html">4</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.List&lt;java.lang.Class&lt;? extendsjava.lang.Throwable&gt;&gt;</td>
+                    <td>boolean</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project46.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.ListenerBindings</td>
+                    <td>net.jodah.failsafe.ListenerConfig</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project47.html">4</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.atomic.AtomicInteger</td>
+                    <td>net.jodah.failsafe.ListenerConfigTest.ListenerCounter</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project48.html">6</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.Integer</td>
+                    <td>net.jodah.failsafe.util.Ratio</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project49.html">4</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.event.ResultListener</td>
+                    <td>net.jodah.failsafe.function.CheckedBiConsumer</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project50.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.event.ContextualSuccessListener</td>
+                    <td>net.jodah.failsafe.function.CheckedBiConsumer</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project51.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.ListenerConfig</td>
+                    <td>net.jodah.failsafe.FailsafeConfig</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project52.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.event.SuccessListener</td>
+                    <td>net.jodah.failsafe.function.CheckedConsumer</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project53.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.event.FailureListener</td>
+                    <td>net.jodah.failsafe.function.CheckedConsumer</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project54.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>void</td>
+                    <td>net.jodah.failsafe.CircuitBreaker</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project55.html">3</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.Callable</td>
+                    <td>net.jodah.failsafe.function.ContextualCallable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project56.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.CompletableFuture</td>
+                    <td>java.util.concurrent.CompletionStage</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project57.html">4</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.function.ContextualCallable</td>
+                    <td>java.util.concurrent.Callable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project58.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>? extendsjava.lang.Throwable</td>
+                    <td>java.lang.Throwable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project59.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.FailsafeFuture&lt;java.lang.String&gt;</td>
+                    <td>java.util.concurrent.Future</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project60.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.function.CheckedBiFunction&lt;R, java.lang.Throwable, R&gt;</td>
+                    <td>net.jodah.failsafe.Fallback</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project61.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.reflect.AccessibleObject</td>
+                    <td>?</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project62.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> TypeVariable</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.Functions.AsyncCallableWrapper</td>
+                    <td>java.util.concurrent.Callable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project63.html">3</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.Callable</td>
+                    <td>java.util.function.Function</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project64.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.Functions.AsyncCallableWrapper</td>
+                    <td>java.util.function.Function</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project65.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.FailsafeFuture</td>
+                    <td>java.util.concurrent.Future</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project66.html">18</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.FailsafeConfig&lt;T, ?&gt;</td>
+                    <td>net.jodah.failsafe.event.EventHandler</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project67.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>Composition</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.event.EventHandler</td>
+                    <td>net.jodah.failsafe.Listeners.ListenerRegistry&lt;R&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project68.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.Future&lt;java.lang.Void&gt;</td>
+                    <td>void</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project69.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.function.AsyncCallable</td>
+                    <td>java.util.concurrent.Callable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project70.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.FailsafeFuture&lt;T&gt;</td>
+                    <td>net.jodah.failsafe.Execution</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project71.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.AsyncExecution</td>
+                    <td>net.jodah.failsafe.Execution</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project72.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>SIBLING</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.SyncFailsafe</td>
+                    <td>net.jodah.failsafe.FailsafeExecutor</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project73.html">8</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>SIBLING</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.CompletableFuture</td>
+                    <td>java.util.concurrent.Callable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project74.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.function.AsyncRunnable</td>
+                    <td>net.jodah.failsafe.function.CheckedRunnable</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project75.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.List</td>
+                    <td>net.jodah.failsafe.function.CheckedConsumer</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project76.html">7</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.event.EventHandler</td>
+                    <td>net.jodah.failsafe.FailsafeExecutor&lt;T&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project77.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.event.EventHandler</td>
+                    <td>net.jodah.failsafe.FailsafeExecutor&lt;java.lang.reflect.AccessibleObject&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project78.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.FailsafeExecutor</td>
+                    <td>net.jodah.failsafe.RetryPolicy</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project79.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.FailsafeConfig</td>
+                    <td>net.jodah.failsafe.FailsafeExecutor</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project80.html">4</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.function.ContextualCallable</td>
+                    <td>net.jodah.failsafe.function.ContextualSupplier</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project81.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.CompletableFuture&lt;T&gt;</td>
+                    <td>net.jodah.failsafe.AsyncExecution</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project82.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.Policy</td>
+                    <td>net.jodah.failsafe.Policy&lt;R&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project83.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.Policy</td>
+                    <td>net.jodah.failsafe.Policy&lt;java.lang.reflect.AccessibleObject&gt;</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project84.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.PolicyExecutor</td>
+                    <td>void</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project85.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.Callable</td>
+                    <td>net.jodah.failsafe.function.CheckedSupplier</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project86.html">18</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.Callable</td>
+                    <td>java.util.function.Supplier</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project87.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.ExecutionResult</td>
+                    <td>void</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project88.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.lang.String</td>
+                    <td>java.lang.reflect.AccessibleObject</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project89.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.Future</td>
+                    <td>java.util.concurrent.CompletableFuture</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project90.html">5</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>T_SUPER_R</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>long</td>
+                    <td>java.time.Duration</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project91.html">3</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.TimeUnit</td>
+                    <td>java.time.temporal.ChronoUnit</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project92.html">3</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>SIBLING</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.event.FailsafeEvent</td>
+                    <td>net.jodah.failsafe.event.ExecutionAttemptedEvent</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project93.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.event.FailsafeEvent</td>
+                    <td>net.jodah.failsafe.event.ExecutionCompletedEvent</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project94.html">8</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>double</td>
+                    <td>net.jodah.failsafe.util.Ratio</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project95.html">2</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>Composition</td>
+                    <td>-</td>
+                    <td>Jdk -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>net.jodah.failsafe.function.CheckedBiFunction</td>
+                    <td>net.jodah.failsafe.function.CheckedFunction</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project96.html">4</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Internal -> Internal</td>
+                </tr>
+                
+                <tr>
+                    <td>java.util.concurrent.CompletableFuture</td>
+                    <td>java.util.concurrent.Future</td>
+                    <td><a href="/Users/ameya/Research/TypeChangeStudy/DataAnalysis/docs/Pages/failsafe/tci_project97.html">1</a></td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>R_SUPER_T</td>
+                    <td>-</td>
+                    <td>Jdk -> Jdk</td>
+                </tr>
+                
+            </table>
+
+
+        </div><!--/ 1st container end -->
+
+
+        <div class="gap-60"></div>
+    </section><!--/ Main container end -->
+
+    <script src="../tablefilter/tablefilter.js"></script>
+    <!--base_path: '/tablefilter/',-->
+    <script>
+        var tf = new TableFilter('AllTypeChanges', {
+            col_types: [
+                'string', 'string', 'number', 'number', 'number',
+                'string', 'string', 'string']
+        });
+        tf.init();
+    </script>
+
+    <!-- initialize jQuery Library -->
+        <script type="text/javascript" src="../js/jquery.js"></script>
+        <!-- Bootstrap jQuery -->
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+        <!-- Style Switcher -->
+        <script type="text/javascript" src="../js/style-switcher.js"></script>
+        <!-- Owl Carousel -->
+        <script type="text/javascript" src="../js/owl.carousel.js"></script>
+        <!-- PrettyPhoto -->
+        <script type="text/javascript" src="../js/jquery.prettyPhoto.js"></script>
+        <!-- Bxslider -->
+        <script type="text/javascript" src="../js/jquery.flexslider.js"></script>
+        <!-- CD Hero slider -->
+        <script type="text/javascript" src="../js/cd-hero.js"></script>
+        <!-- Isotope -->
+        <script type="text/javascript" src="../js/isotope.js"></script>
+        <script type="text/javascript" src="../js/ini.isotope.js"></script>
+        <!-- Wow Animation -->
+        <script type="text/javascript" src="../js/wow.min.js"></script>
+        <!-- SmoothScroll -->
+        <script type="text/javascript" src="../js/smoothscroll.js"></script>
+        <!-- Eeasing -->
+        <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+        <!-- Counter -->
+        <script type="text/javascript" src="../js/jquery.counterup.min.js"></script>
+        <!-- Waypoints -->
+        <script type="text/javascript" src="../js/waypoints.min.js"></script>
+        <!-- Template custom -->
+        <script type="text/javascript" src="../js/custom.js"></script>
+</div>
+</body>
+</html>
